@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Simon Stephan</title>
+    <link>/authors/</link>
+    <description>Recent content in Authors on Simon Stephan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am a post-doctoral researcher at the University of Göttingen, working in the Department of Cognition and Decision Making.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Michael R. Waldmann</title>
+      <link>/authors/michael-r.-waldmann/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/michael-r.-waldmann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jonas Nagel</title>
+      <link>/authors/jonas-nagel/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/jonas-nagel/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
