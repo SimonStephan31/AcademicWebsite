@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Simon Stephan(C) 2019</copyright>
-    <lastBuildDate>Tue, 22 Oct 2019 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -85,6 +85,16 @@
     </item>
     
     <item>
+      <title>If you ever thought p-values were problematic and Bayes factors the holy grail, ....</title>
+      <link>/post/data_colada_bayesfactor/</link>
+      <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/data_colada_bayesfactor/</guid>
+      <description>&lt;p&gt;&amp;hellip; you should check out Uri Simonsohn&amp;rsquo;s three latest posts on his brilliant blog Data Colada, where he points towards and discusses some very problematic aspects of Bayes factors: &lt;a href=&#34;http://datacolada.org/78a&#34; target=&#34;_blank&#34;&gt;http://datacolada.org/78a&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Computational Modeling and Progress in Cognitive Science (ANaP-Lab, 2019, Göttingen)</title>
       <link>/talk/anaplab_2019/</link>
       <pubDate>Tue, 22 Oct 2019 18:00:00 +0000</pubDate>
@@ -100,16 +110,6 @@
       
       <guid>/talk/espp_athens2019/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>If you ever thought p-values were problematic and Bayes factors the cure, ....</title>
-      <link>/post/data_colada_bayesfactor/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/post/data_colada_bayesfactor/</guid>
-      <description>&lt;p&gt;&amp;hellip; you should check out Uri Simonsohn&amp;rsquo;s three latest posts on his brilliant blog Data Colada, where he points towards and discusses some very problematic aspects of Bayes factors: &lt;a href=&#34;http://datacolada.org/78a&#34; target=&#34;_blank&#34;&gt;http://datacolada.org/78a&lt;/a&gt;&lt;/p&gt;
-</description>
     </item>
     
     <item>
