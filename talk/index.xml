@@ -7,10 +7,19 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Simon Stephan(C) 2019</copyright>
-    <lastBuildDate>Mon, 02 Dec 2019 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2020 19:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Interpolating Causal Mechanisms - The Paradox of Knowing More (Causality in Cognition Lab, 2020, Stanford University)</title>
+      <link>/talk/ciclab_2020/</link>
+      <pubDate>Wed, 22 Apr 2020 19:00:00 +0000</pubDate>
+      
+      <guid>/talk/ciclab_2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>What made this happen? A computational modeling approach to answering causal queries about singular cases (CRISP-Lab, 2019, Göttingen)</title>
