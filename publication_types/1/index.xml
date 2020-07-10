@@ -7,10 +7,28 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Simon Stephan(C) 2019</copyright>
-    <lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>On causal claims, contingencies, and inference - How causal terminology affects what we think about the strength of causal links</title>
+      <link>/publication/stephan_waldmann_2020_02/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stephan_waldmann_2020_02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Causal scope and causal strength - The number of potential effects of a cause influences causal strength estimates</title>
+      <link>/publication/stephan_waldmann_2020_01/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stephan_waldmann_2020_01/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Assessing Singular Causation - The Role of Causal Latencies</title>

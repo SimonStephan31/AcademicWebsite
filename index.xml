@@ -7,7 +7,7 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Simon Stephan(C) 2019</copyright>
-    <lastBuildDate>Wed, 22 Apr 2020 19:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -82,6 +82,42 @@
 
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>A counterfactual simulation model of causation by omission</title>
+      <link>/publication/gerstenberg_stephan_submitted/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/gerstenberg_stephan_submitted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time and Singular Causation—A Computational Model</title>
+      <link>/publication/stephan_mayrhofer_waldmann_2020/</link>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stephan_mayrhofer_waldmann_2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On causal claims, contingencies, and inference - How causal terminology affects what we think about the strength of causal links</title>
+      <link>/publication/stephan_waldmann_2020_02/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stephan_waldmann_2020_02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Causal scope and causal strength - The number of potential effects of a cause influences causal strength estimates</title>
+      <link>/publication/stephan_waldmann_2020_01/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stephan_waldmann_2020_01/</guid>
+      <description></description>
     </item>
     
     <item>
