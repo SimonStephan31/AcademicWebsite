@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jonas Nagel on Simon Stephan</title>
+    <link>/authors/jonas-nagel/</link>
+    <description>Recent content in Jonas Nagel on Simon Stephan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Simon Stephan(C) 2019</copyright>
+    <lastBuildDate>Fri, 01 Jul 2016 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/jonas-nagel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Explanations in Causal Chains - Selecting Distal Causes Requires Exportable Mechanisms</title>
+      <link>/publication/nagel_stephan_2016/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/nagel_stephan_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mediators or alternative explanations - Transitivity in human-mediated causal chains</title>
+      <link>/publication/conference-paper/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/conference-paper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
