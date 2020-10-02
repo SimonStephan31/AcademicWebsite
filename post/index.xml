@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Simon Stephan</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Simon Stephan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Simon Stephan(C) 2019</copyright>
+    <lastBuildDate>Wed, 23 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>If you ever thought p-values were problematic and Bayes factors the holy grail, ...</title>
+      <link>/post/data_colada_bayesfactor/</link>
+      <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/data_colada_bayesfactor/</guid>
+      <description>&lt;p&gt;&amp;hellip; you should check out Uri Simonsohn&amp;rsquo;s three latest posts on his brilliant blog Data Colada, where he points towards and discusses some very problematic aspects of Bayes factors: &lt;a href=&#34;http://datacolada.org/78a&#34; target=&#34;_blank&#34;&gt;http://datacolada.org/78a&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

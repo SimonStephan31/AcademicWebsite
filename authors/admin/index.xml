@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simon Stephan</title>
+    <link>/authors/admin/</link>
+    <description>Recent content on Simon Stephan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <copyright>Simon Stephan(C) 2019</copyright>
+    <lastBuildDate>Sat, 11 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interpolating Causal Mechanisms - The Paradox of Knowing More</title>
+      <link>/publication/stephan_tentori_pighin_waldmann_submitted/</link>
+      <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stephan_tentori_pighin_waldmann_submitted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A counterfactual simulation model of causation by omission</title>
+      <link>/publication/gerstenberg_stephan_submitted/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/gerstenberg_stephan_submitted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time and Singular Causation—A Computational Model</title>
+      <link>/publication/stephan_mayrhofer_waldmann_2020/</link>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stephan_mayrhofer_waldmann_2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On causal claims, contingencies, and inference - How causal terminology affects what we think about the strength of causal links</title>
+      <link>/publication/stephan_waldmann_2020_02/</link>
+      <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stephan_waldmann_2020_02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Causal scope and causal strength - The number of potential effects of a cause influences causal strength estimates</title>
+      <link>/publication/stephan_waldmann_2020_01/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stephan_waldmann_2020_01/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>If you ever thought p-values were problematic and Bayes factors the holy grail, ...</title>
+      <link>/post/data_colada_bayesfactor/</link>
+      <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/data_colada_bayesfactor/</guid>
+      <description>&lt;p&gt;&amp;hellip; you should check out Uri Simonsohn&amp;rsquo;s three latest posts on his brilliant blog Data Colada, where he points towards and discusses some very problematic aspects of Bayes factors: &lt;a href=&#34;http://datacolada.org/78a&#34; target=&#34;_blank&#34;&gt;http://datacolada.org/78a&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assessing Singular Causation - The Role of Causal Latencies</title>
+      <link>/publication/stephan_mayrhofer_waldmann_2018/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stephan_mayrhofer_waldmann_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preemption in Singular Causation Judgments - A Computational Model (Topics version)</title>
+      <link>/publication/stephan_waldmann_2018/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stephan_waldmann_2018/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &amp;ldquo;Best of Papers from the Cognitive Science Society Annual Conference,&amp;rdquo; Wayne D. Gray (Topic Editor). For a full listing of topic papers, see &lt;a href=&#34;http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1756-8765/earlyview&#34; target=&#34;_blank&#34;&gt;http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1756-8765/earlyview&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Marbles in inaction - Counterfactual Simulation and Causation by Omission</title>
+      <link>/publication/stephan_willemsen_gerstenberg_2017/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stephan_willemsen_gerstenberg_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Preemption in Singular Causation Judgments - A Computational Model (Proceedings version; Higher Level Cognition Award of the Cognitive Science Society)</title>
+      <link>/publication/stephan_waldmann_2017/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stephan_waldmann_2017/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Higher Level Cognition Award of the Cognitive Science Society: &lt;a href=&#34;https://cognitivesciencesociety.org/conference-awards/&#34; target=&#34;_blank&#34;&gt;https://cognitivesciencesociety.org/conference-awards/&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Answering Causal Queries About Singular Cases</title>
+      <link>/publication/stephan_waldmann_2016/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/stephan_waldmann_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Explanations in Causal Chains - Selecting Distal Causes Requires Exportable Mechanisms</title>
+      <link>/publication/nagel_stephan_2016/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/nagel_stephan_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mediators or alternative explanations - Transitivity in human-mediated causal chains</title>
+      <link>/publication/conference-paper/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/conference-paper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Sat, 11 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am a post-doctoral researcher at the University of Göttingen, working in &lt;a href=&#34;https://www.psych.uni-goettingen.de/waldmann&#34; target=&#34;_blank&#34;&gt;Michael Waldmann&amp;rsquo;s&lt;/a&gt; Lab of &lt;a href=&#34;https://www.psych.uni-goettingen.de/en/cognition?set_language=en&#34; target=&#34;_blank&#34;&gt;Cognitive and Decision Sciences&lt;/a&gt;. I&amp;rsquo;m particularly interested in studying human causal learning and reasoning. Given that causal relationships are neither directly observable nor logically deducible, how do reasoners manage to learn about causes and effect so successfully? How do they use this knowledge to make predictions, diagnoses, or to explain?&lt;/p&gt;
+
+&lt;p&gt;On this website I share information about my academic life. You will find things like an up-to-date CV, my publication list, my accomplishments, and a list informing you about recent/ upcoming presentations (e.g., conference talks). I also have a litte &amp;ldquo;posts&amp;rdquo; section in which I share (mostly) scientific news I consider interesting and worth spreading.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
