@@ -1,2530 +1,472 @@
 <!DOCTYPE html>
-<html lang="en-us">
+
+<html>
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.3.1">
-
-  
-
-  
-  
-  
-  
-  
-    
-    
-    
-  
-  
-
-  <meta name="author" content="Simon Stephan">
-
-  
-  
-  
-    
-  
-  <meta name="description" content="Simon Stephan">
-
-  
-  <link rel="alternate" hreflang="en-us" href="/">
-
-  
-
-
-  
-
-  
-  
-  
-  <meta name="theme-color" content="#328cc1">
-  
-
-  
-  
-  
-  
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-
-    
-    
-    
-      
-    
-    
-      
-      
-        
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-        
-      
-    
-
-    
-
-    
-
-  
-
-  
-  
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
-  
-
-  
-  
-  
-  <link rel="stylesheet" href="/css/academic.min.dc5b97315296d8c14a6b33cc7153a36c.css">
-
-  
-
-  
-  
-  
-
-  
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Simon Stephan">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Simon Stephan">
-  
-
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
-
-  <link rel="canonical" href="/">
-
-  
-  
-  
-  
-    
-  
-  <meta property="twitter:card" content="summary_large_image">
-  
-  <meta property="og:site_name" content="Simon Stephan">
-  <meta property="og:url" content="/">
-  <meta property="og:title" content="Simon Stephan">
-  <meta property="og:description" content="Simon Stephan"><meta property="og:image" content="/img/icon-192.png">
-  <meta property="og:locale" content="en-us">
-  
-  <meta property="og:updated_time" content="2020-07-11T00:00:00&#43;00:00">
-  
-
-  
-
-
-  
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
+<title>index.utf8</title>
 
-  <title>Simon Stephan</title>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+      </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 66px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h2 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h3 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h4 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h5 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.section h6 {
+  padding-top: 71px;
+  margin-top: -71px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
 
 </head>
 
+<body>
 
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
 
-  <aside class="search-results" id="search">
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
-    <section class="search-header">
-
-      <div class="row no-gutters justify-content-between mb-3">
-        <div class="col-6">
-          <h1>Search</h1>
-        </div>
-        <div class="col-6 col-search-close">
-          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
-        </div>
-      </div>
-
-      <div id="search-box">
-        
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
-        
-      </div>
-
-    </section>
-    <section class="section-search-results">
-
-      <div id="search-hits">
-        
-      </div>
-
-    </section>
-  </div>
-</aside>
-
-
-  
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
-  <div class="container">
-
-    
-      <a class="navbar-brand" href="/">Simon Stephan</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
-      
-
-    
-    <div class="collapse navbar-collapse" id="navbar">
-
-      
-      
-      <ul class="navbar-nav mr-auto">
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
-        </li>
-
-        
-        
-
-      
-      </ul>
-      <ul class="navbar-nav ml-auto">
-      
-
-        
-
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
-
-        
-
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
+      <a class="navbar-brand" href="index.html">Simon Stephan</a>
     </div>
-  </div>
-</nav>
-
-
-  
-
-
-<span class="js-widget-page d-none"></span>
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="about" class="home-section wg-about   "  >
-    <div class="container">
-      
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-telephone person-address">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      
-      
-      <img class="portrait" src="/authors/admin/avatar_hu5f3697a1b8b9ccaef025adaa068c0e2c_290967_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
-      
-
-      <div class="portrait-title">
-        <h2 itemprop="name">Simon Stephan</h2>
-        <h3 itemprop="jobTitle">Research Scientist in the field of Cognitive Science at the</h3>
-
-        
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          <a href="https://www.psych.uni-goettingen.de/de/cognition/team/stephan" target="_blank" itemprop="url" rel="noopener">
-          <span itemprop="name">University of Göttingen</span>
-          </a>
-        </h3>
-        
-      </div>
-
-      <link itemprop="url" href="">
-
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
         <li>
-          <a itemprop="sameAs" href="mailto:simon.stephan@psych.uni-goettingen.de" >
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="https://twitter.com/SimonStephan31?lang=de" target="_blank" rel="noopener">
-            <i class="fab fa-twitter big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="https://scholar.google.de/citations?hl=de&amp;user=_GsFvvAAAAAJ" target="_blank" rel="noopener">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="https://github.com/SimonStephan31" target="_blank" rel="noopener">
-            <i class="fab fa-github big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="https://www.osf.io/k7wfj" target="_blank" rel="noopener">
-            <i class="ai ai-osf big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="https://www.researchgate.net/profile/Simon_Stephan8" target="_blank" rel="noopener">
-            <i class="ai ai-researchgate big-icon"></i>
-          </a>
-        </li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="cv/simonstephan_cv.pdf">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
         
       </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
 
-    </div>
-  </div>
-  <div class="col-12 col-lg-8" itemprop="description">
+<div class="fluid-row" id="header">
 
-    
-    <h1>About me</h1>
 
-    <p>I am a post-doctoral researcher at the University of Göttingen, working in <a href="https://www.psych.uni-goettingen.de/waldmann" target="_blank">Michael Waldmann&rsquo;s</a> Lab of <a href="https://www.psych.uni-goettingen.de/en/cognition?set_language=en" target="_blank">Cognitive and Decision Sciences</a>. I&rsquo;m particularly interested in studying human causal learning and reasoning. Given that causal relationships are neither directly observable nor logically deducible, how do reasoners manage to learn about causes and effect so successfully? How do they use this knowledge to make predictions, diagnoses, or to explain?</p>
 
-<p>On this website I share information about my academic life. You will find things like an up-to-date CV, my publication list, my accomplishments, and a list informing you about recent/ upcoming presentations (e.g., conference talks). I also have a litte &ldquo;posts&rdquo; section in which I share (mostly) scientific news I consider interesting and worth spreading.</p>
-
-
-    <div class="row">
-
-      
-      <div class="col-md-5">
-        <h3>Interests</h3>
-        <ul class="ul-interests">
-          
-          <li>Computational Cognitive Science</li>
-          
-          <li>Philosophy of Science</li>
-          
-          <li>Causal Learning and Causal Reasoning</li>
-          
-          <li>Singular Causation</li>
-          
-          <li>Statistical Thinking</li>
-          
-          <li>Moral Reasoning and Moral Judgment</li>
-          
-          <li>Statistical Methods</li>
-          
-        </ul>
-      </div>
-      
-
-      
-      <div class="col-md-7">
-        <h3>Education</h3>
-        <ul class="ul-edu fa-ul">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">Post-doc, 2019 -</p>
-              <p class="institution">University of Göttingen</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">PhD in Psychology - Cognitive Science, 2019</p>
-              <p class="institution">University of Göttingen</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">MSc in Psychology, 2014</p>
-              <p class="institution">University of Göttingen</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">BSc in Psychology, 2012</p>
-              <p class="institution">University of Göttingen</p>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="posts" class="home-section wg-pages   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Recent Posts</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-
-    
-      
-        
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/post/data_colada_bayesfactor/" itemprop="url">If you ever thought p-values were problematic and Bayes factors the holy grail, ...</a>
-    </h3>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-
-<meta content="2019-10-23 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2019-10-23 00:00:00 &#43;0000 UTC" itemprop="dateModified">
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Simon Stephan</a></span>
-
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    <time>Oct 23, 2019</time>
-  </span>
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
 
 </div>
 
-      
-    </div>
 
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/post/data_colada_bayesfactor/">
-      <img src="/post/data_colada_bayesfactor/featured_hu9abbd3abd5fe060e6d02f67d7bc4e650_13387_150x0_resize_q90_lanczos.JPG" itemprop="image">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
-
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="accomplishments" class="home-section wg-accomplishments   "  >
-    <div class="container">
-      
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Accomplish&shy;ments</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-    
-
-    
-    
-      <div class="card experience course">
-        <div class="card-body"><a href="https://mindmodeling.org/cogsci2017/pdfs/section0004.pdf" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">Computational Modeling Prize - Higher Level Cognition</h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://cognitivesciencesociety.org/" target="_blank" rel="noopener">Cognitive Science Society</a><span class="middot-divider"></span>
-
-            Aug 2017
-            
-          </div>
-
-          
-
-          
-        </div>
-      </div>
-    
-    
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="talks" class="home-section wg-pages   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Talks &amp; Conference Presentations</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-
-    
-      
-        
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/talk/ciclab_2020/" itemprop="url">Interpolating Causal Mechanisms - The Paradox of Knowing More (Causality in Cognition Lab, 2020, Stanford University)</a>
-    </h3>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span itemprop="startDate">
-          
-          Apr 22, 2020
-          
-            7:00 PM
-            
-            &mdash; 8:30 PM
-            
-          
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span itemprop="location">University of Heidelberg</span>
-        
-      </div>
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/ciclab_2020/">
-      <img src="/talk/ciclab_2020/featured_hu71b04b3a9541a84f4c5822c89ec1b756_676256_150x0_resize_lanczos_2.PNG" itemprop="image">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/talk/fiedlerlab_2019/" itemprop="url">What made this happen? A computational modeling approach to answering causal queries about singular cases (CRISP-Lab, 2019, Göttingen)</a>
-    </h3>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span itemprop="startDate">
-          
-          Dec 2, 2019
-          
-            6:00 PM
-            
-            &mdash; 7:30 PM
-            
-          
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span itemprop="location">University of Heidelberg</span>
-        
-      </div>
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/talk/anaplab_2019/" itemprop="url">Computational Modeling and Progress in Cognitive Science (ANaP-Lab, 2019, Göttingen)</a>
-    </h3>
-
-    
-    <div class="article-style" itemprop="articleBody">
-      In this colloquium presentation I show how computational modeling has been boosting scientific progress in cognitive science, with a …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span itemprop="startDate">
-          
-          Oct 22, 2019
-          
-            6:00 PM
-            
-            &mdash; 7:30 PM
-            
-          
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span itemprop="location">University of Göttingen</span>
-        
-      </div>
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/anaplab_2019/">
-      <img src="/talk/anaplab_2019/featured_hu9abbd3abd5fe060e6d02f67d7bc4e650_75692_150x0_resize_q90_lanczos.jpg" itemprop="image">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
-      
-        
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/Event">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/talk/espp_athens2019/" itemprop="url">The Role of Effect and Sample Size in Causal Induction (ESPP, 2019, Athens)</a>
-    </h3>
-
-    
-    <div class="article-style" itemprop="articleBody">
-      Past studies revealed that reasoners struggle to recognize the role of sample size. We investigate why this is.
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-      <div>
-        <span itemprop="startDate">
-          
-          Sep 5, 2019
-          
-            1:00 PM
-            
-            &mdash; 3:00 PM
-            
-          
-        </span>
-        
-        <span class="middot-divider"></span>
-        <span itemprop="location">Athens, Greece</span>
-        
-      </div>
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    <a href="/talk/espp_athens2019/">
-      <img src="/talk/espp_athens2019/featured_hu9abbd3abd5fe060e6d02f67d7bc4e650_67810_150x0_resize_q90_lanczos.jpg" itemprop="image">
-    </a>
-    
-  </div>
-</div>
-
-      
-    
-
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="publications" class="home-section wg-pages   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Publications</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Simon Stephan</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/katya-tentori/">Katya Tentori</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/stefania-pighin/">Stefania Pighin</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/michael-r.-waldmann/">Michael R. Waldmann</a></span>
-
-  </span>
-  (2020).
-  <a href="/publication/stephan_tentori_pighin_waldmann_submitted/" itemprop="name">Interpolating Causal Mechanisms - The Paradox of Knowing More</a>.
-  In <em>(submitted)</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://osf.io/aqzps/" target="_blank" rel="noopener">
-  Project
-</a>
-
-
-
-
-
-
-
-
-
-
+<p><link rel="icon" href="http://example.com/favicon.png"></p>
+<p><br></p>
+<style>
+.column-left{
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+.column-center{
+  display: inline-block;
+  width: 5%;
+  text-align: center;
+}
+.column-right{
+  float: right;
+  width: 65%;
+  text-align: left;
+}
+
+.column-inleft{
+  float: left;
+  width: 40%;
+  text-align: left;
+}
+.column-incenter{
+  float: left;
+  width: 5%;
+  text-align: left;
+}
+.column-inright{
+  float: right;
+  width: 55%;
+  text-align: left;
+}
+</style>
+<div class="column-left">
+<img src="images/home/avatar.png" /><br />
+
+<h2>
+Simon Stephan
+</h2>
+<p style="color:grey;">
+Research Scientist in the field of Cognitive Science at the University of Göttingen
 </p>
+<p><a href="mailto:simon.stephan@psych.uni-goettingen.de"><img src="images/home/mail_icon.PNG"></a> <a href="https://github.com/SimonStephan31"><img src="images/home/github_icon.PNG"></a> <a href="https://twitter.com/SimonStephan31"><img src="images/home/twitter_icon.PNG"></a> <a href="https://scholar.google.de/citations?hl=de&amp;user=_GsFvvAAAAAJ"><img src="images/home/scholar_icon.PNG"></a></p>
+</div>
+<div class="column-center">
 
-  
-  
+</div>
+<div class="column-right">
+<h1 id="about-me">About me</h1>
+<p><font size="+1">I am a post-doctoral researcher at the University of Göttingen, working in <a href="https://www.psych.uni-goettingen.de/de/cognition/team/waldmann">Michael Waldmann’s</a> Lab of <a href="https://www.psych.uni-goettingen.de/en/cognition?set_language=en">Cognitive and Decision Sciences</a>. I’m interested in human causal learning and reasoning. Given that causal relationships are neither directly observable nor logically deducible, how do reasoners manage to learn about causes and effect so successfully? How do they use this knowledge to make predictions, diagnoses, or to explain things?</p>
+<p>On this website I share information about my academic life. You will find things like an up-to-date <a href="cv/simonstephan_cv.pdf">CV</a>, my <a href="#publications">publication list</a>, accomplishments, and information about recent/ upcoming presentations (e.g., conference talks).</font></p>
+<div class="column-inleft">
+<h3 id="interests">Interests</h3>
+<ul>
+<li>Computational Cognitive Science</li>
+<li>Philosophy of Science</li>
+<li>Causal Learning and Reasoning</li>
+</ul>
+</div>
+<div class="column-incenter">
+
+</div>
+<div class="column-inright">
+<h3 id="education">Education</h3>
+<ul>
+<li>PhD in Psychology, 2019 <font style="color:grey;">University of Göttingen</font></li>
+<li>MSc in Psychology, 2014 <font style="color:grey;">University of Göttingen</font></li>
+<li>BSc in Psychology, 2012 <font style="color:grey;">University of Göttingen</font></li>
+</ul>
+</div>
+</div>
+<style>
+.column-newleft{
+  float: left;
+  width: 100%;
+  text-align: left;
+}
+.column-newcenter{
+  display: inline-block;
+  width: 0%;
+  text-align: center;
+}
+.column-newright{
+  float: right;
+  width: 0%;
+  text-align: left;
+}
+</style>
+<style>
+div.blue {background-color:#e6f0ff; border-radius: 5px; padding: 20px;}
+</style>
+<div class="column-newleft">
+<div class="blue">
+<h1 id="test">Test</h1>
+<p>Discovering that mechanism components were present in a given situation can be helpful in another respect. We have so far considered situations in which a reasoner already knows that the potential causes of the effect were present. In many situations, however, reasoners will not have observed the potential causes of an effect <span class="math inline">\(e\)</span>. In such cases, examining the status of mechanism variables mediating the influence of potential causes can help to reconstruct and narrow down the set of potential causes that had in fact been present in a given situation.</p>
+</div>
+<style>
+div.white {background-color:"white"; border-radius: 5px; padding: 20px;}
+</style>
+<div class="white">
+<h1 id="publications">Publications<a name="publications"></a></h1>
+<ul>
+<li><p><strong>Stephan, S.</strong>, Tentori, K., Pighin, S., &amp; Waldmann, M. R. (accepted). Interpolating causal mechanisms: The paradox of knowing more. <a href="https://osf.io/aqzps/"><img src="images/home/Lit_osf_icon.PNG"></a></p></li>
+<li><p>Gerstenberg, T., &amp; <strong>Stephan, S.</strong> (in revision). A counterfactual simulation model of causation by omission. <a href="https://psyarxiv.com/wmh4c/"><img src="images/home/Lit_arxiv_icon.PNG"></a> <a href="https://osf.io/jubdz/"><img src="images/home/Lit_osf_icon.PNG"></a> <a href="https://github.com/cicl-stanford/omission"><img src="images/home/Lit_git_icon.PNG"></a> <a href="https://osf.io/fu9rq"><img src="images/home/Lit_prereg_icon.PNG"></a></p></li>
+<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2020). Causal scope and causal strength: The number of potential effects of a cause influences causal strength estimates. In S. Denison., M. Mack, Y. Xu, &amp; B.C. Armstrong (Eds.), <em>Proceedings of the 42th Annual Conference of the Cognitive Science Society</em> (pp. 3426 - 3432). Austin, TX: Cognitive Science Society. <a href="publications/Stephan-Waldmann-2020-_CausalScopeAndStrength_Proceedings.pdf"><img src="images/home/Lit_pdf_icon.PNG"></a> <a href="https://osf.io/mjswc/"><img src="images/home/Lit_osf_icon.PNG"></a></p></li>
+<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2020). On causal claims, contingencies, and inference: How causal terminology affects what we think about the strength of causal links. In S. Denison., M. Mack, Y. Xu, &amp; B.C. Armstrong (Eds.), <em>Proceedings of the 42th Annual Conference of the Cognitive Science Society</em> (pp. 3419 - 3425). Austin, TX: Cognitive Science Society. <a href="publications/Stephan-Waldmann-2020-_CausalClaimsAndInference_Proceedings.pdf"><img src="images/home/Lit_pdf_icon.PNG"></a> <a href="https://osf.io/5ngpd/"><img src="images/home/Lit_osf_icon.PNG"></a></p></li>
+<li><p><strong>Stephan, S.</strong>, Mayrhofer, R., &amp; Waldmann, M. R. (2020). Time and singular causation - a computational model. <em>Cognitive Science</em>, 44, e12871. <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/cogs.12871"><img src="images/home/Lit_pdf_icon.PNG"></a> <a href="https://osf.io/5yvs4/"><img src="images/home/Lit_osf_icon.PNG"></a> <a href="https://osf.io/n93bu"><img src="images/home/Lit_prereg_icon.PNG"></a></p></li>
+<li><p><strong>Stephan, S.</strong>, Mayrhofer, R., &amp; Waldmann, M. R. (2018). Assessing singular causation: The role of causal latencies. In T.T. Rogers, M. Rau, X. Zhu, &amp; C. W. Kalish (Eds.), <em>Proceedings of the 40th Annual Conference of the Cognitive Science Society</em> (pp. 1080 - 1085). Austin, TX: Cognitive Science Society. <a href="publications/Stephan-Mayrhofer-Waldmann-2018-_SingularCausationLatency.pdf"><img src="images/home/Lit_pdf_icon.PNG"></a></p></li>
+<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2018). Preemption in singular causation judgments: A computational model. <em>Topics in Cognitive Science</em>, 10, 242–257. <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12309"><img src="images/home/Lit_pdf_icon.PNG"></a></p></li>
+<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2017). Preemption in singular causation judgments: A computational model. In G. Gunzelmann, A. Howes, T. Tenbrink, &amp; E. Davelaar (Eds.), <em>Proceedings of the 39th Annual Conference of the Cognitive Science Society</em> (pp. 1126-1131). Austin, TX: Cognitive Science Society. (<strong>Computational Modeling: Higher Level Cognition Award of the Cognitive Science Society</strong>). <img src="images/home/Lit_award_icon.PNG" /> <a href="publications/Stephan-Waldmann-2017-_Preemption%20in%20singular%20causation%20judgments-A%20computational%20model.pdf"><img src="images/home/Lit_pdf_icon.PNG"></a></p></li>
+<li><p><strong>Stephan, S.</strong>, Willemsen, P. &amp; Gerstenberg, T. (2017). Marbles in inaction: Counterfactual simulation and causation by omission. In G. Gunzelmann, A. Howes, T. Tenbrink, &amp; E. Davelaar (Eds.), <em>Proceedings of the 39th Annual Conference of the Cognitive Science Society</em> (pp. 1132-1137). Austin, TX: Cognitive Science Society. <a href="publications/Stephan-Willemsen-Gerstenberg-2017-_omissions.pdf"><img src="images/home/Lit_pdf_icon.PNG"></a></p></li>
+<li><p>Nagel, J., &amp; <strong>Stephan, S.</strong> (2016). Explanations in causal chains: Selecting distal causes requires exportable mechanisms. In A. Papafragou, D. Grodner, D. Mirman, &amp; J.C. Trueswell (Eds.), <em>Proceedings of the 38th Annual Conference of the Cognitive Science Society</em> (pp. 806-811). Austin, TX: Cognitive Science Society. <a href="publications/Nagel-Stephan-2016-_Explanations%20in%20causal%20chains_selecting%20distal%20causes.pdf"><img src="images/home/Lit_pdf_icon.PNG"></a> <a href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/2016_Poster_CogSci_Stephan.pdf"><img src="images/home/Lit_poster_icon.PNG"></a></p></li>
+<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2016). Answering causal queries about singular cases. In A. Papafragou, D. Grodner, D. Mirman, &amp; J.C. Trueswell (Eds.), <em>Proceedings of the 38th Annual Conference of the Cognitive Science Society</em> (pp. 2795-2801). Austin, TX: Cognitive Science Society. <a href="publications/Stephan-Waldmann-2016_Answering%20causal%20queries%20about%20singular%20cases.pdf"><img src="images/home/Lit_pdf_icon.PNG"></a></p></li>
+<li><p>Nagel, J., &amp; <strong>Stephan, S.</strong>. (2015). Mediators or alternative explanations: Transitivity in human-mediated causal chains. In D. C. Noelle, R. Dale, A. S. Warlaumont, J. Yoshimi, T. Matlock, C. D. Jennings, &amp; P. P. Maglio (Eds.), <em>Proceedings of the 37th Annual Meeting of the Cognitive Science Society</em> (pp. 1691-1696). Austin, TX: Cognitive Science Society. <a href="publications/Nagel-Stephan-2015_mediators.pdf"><img src="images/home/Lit_pdf_icon.PNG"></a> <a href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/2015_Poster_CogSci_Stephan.pdf"><img src="images/home/Lit_poster_icon.PNG"></a></p></li>
+</ul>
+</div>
 </div>
 
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/tobias-gerstenberg/">Tobias Gerstenberg</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Simon Stephan</a></span>
-
-  </span>
-  (2020).
-  <a href="/publication/gerstenberg_stephan_submitted/" itemprop="name">A counterfactual simulation model of causation by omission</a>.
-  In <em>(submitted)</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://psyarxiv.com/wmh4c/" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/cicl-stanford/omission" target="_blank" rel="noopener">
-  Project
-</a>
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
 </div>
 
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Simon Stephan</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/ralf-mayrhofer/">Ralf Mayrhofer</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/michael-r.-waldmann/">Michael R. Waldmann</a></span>
-
-  </span>
-  (2020).
-  <a href="/publication/stephan_mayrhofer_waldmann_2020/" itemprop="name">Time and Singular Causation—A Computational Model</a>.
-  In <em>Cognitive Science, 44, e12871</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/cogs.12871" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/stephan_mayrhofer_waldmann_2020/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://osf.io/5yvs4/?view_only=c574902bee2740e9b49cd872c7ca2f89" target="_blank" rel="noopener">
-  Project
-</a>
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Simon Stephan</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/michael-r.-waldmann/">Michael R. Waldmann</a></span>
-
-  </span>
-  (2020).
-  <a href="/publication/stephan_waldmann_2020_02/" itemprop="name">On causal claims, contingencies, and inference - How causal terminology affects what we think about the strength of causal links</a>.
-  In <em>S. Denison., M. Mack, Y. Xu, &amp; B.C. Armstrong (Eds.), Proceedings of the 42th Annual Conference of the Cognitive Science Society (pp. 3419 - 3425). Austin, TX - Cognitive Science Society</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/StephanWaldmann2020_OnCausalClaims.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://osf.io/5ngpd/" target="_blank" rel="noopener">
-  Project
-</a>
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Simon Stephan</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/michael-r.-waldmann/">Michael R. Waldmann</a></span>
-
-  </span>
-  (2020).
-  <a href="/publication/stephan_waldmann_2020_01/" itemprop="name">Causal scope and causal strength - The number of potential effects of a cause influences causal strength estimates</a>.
-  In <em>S. Denison., M. Mack, Y. Xu, &amp; B.C. Armstrong (Eds.), Proceedings of the 42th Annual Conference of the Cognitive Science Society (pp. 3426 - 3432). Austin, TX - Cognitive Science Society</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/StephanWaldmann2020_CausalScopeAndStrength.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://osf.io/mjswc/" target="_blank" rel="noopener">
-  Project
-</a>
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Simon Stephan</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/ralf-mayrhofer/">Ralf Mayrhofer</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/michael-r.-waldmann/">Michael R. Waldmann</a></span>
-
-  </span>
-  (2018).
-  <a href="/publication/stephan_mayrhofer_waldmann_2018/" itemprop="name">Assessing Singular Causation - The Role of Causal Latencies</a>.
-  In <em>In T.T. Rogers, M. Rau, X. Zhu, &amp; C. W. Kalish (Eds.), Proceedings of the 40th Annual Conference of the Cognitive Science Society (pp. 1080 - 1085). Austin, TX - Cognitive Science Society</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/StephanMayrhoferWaldmannacceptedforCogSci18_SingularCausationLatency.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/stephan_mayrhofer_waldmann_2018/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Simon Stephan</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/michael-r.-waldmann/">Michael R. Waldmann</a></span>
-
-  </span>
-  (2018).
-  <a href="/publication/stephan_waldmann_2018/" itemprop="name">Preemption in Singular Causation Judgments - A Computational Model (Topics version)</a>.
-  <em>Topics in Cognitive Science, 10, 242–257</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12309" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/stephan_waldmann_2018/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Simon Stephan</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/pascale-willemsen/">Pascale Willemsen</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/tobias-gerstenberg/">Tobias Gerstenberg</a></span>
-
-  </span>
-  (2017).
-  <a href="/publication/stephan_willemsen_gerstenberg_2017/" itemprop="name">Marbles in inaction - Counterfactual Simulation and Causation by Omission</a>.
-  In <em>G. Gunzelmann, A. Howes, T. Tenbrink, &amp; E. Davelaar (Eds.), Proceedings of the 39th Annual Conference of the Cognitive Science Society (pp. 1132-1137). Austin, TX - Cognitive Science Society</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/2017_StephanWillemsen-Gerstenberg-2017-_omissions.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/stephan_willemsen_gerstenberg_2017/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Simon Stephan</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/michael-r.-waldmann/">Michael R. Waldmann</a></span>
-
-  </span>
-  (2017).
-  <a href="/publication/stephan_waldmann_2017/" itemprop="name">Preemption in Singular Causation Judgments - A Computational Model (Proceedings version; Higher Level Cognition Award of the Cognitive Science Society)</a>.
-  In <em>G. Gunzelmann, A. Howes, T. Tenbrink, &amp; E. Davelaar (Eds.), Proceedings of the 39th Annual Conference of the Cognitive Science Society (pp. 1126-1131). Austin, TX - Cognitive Science Society</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/2017_StephanWaldmann_Preemption%20in%20singular%20causation%20judgments-A%20computational%20model.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/stephan_waldmann_2017/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Simon Stephan</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/michael-r.-waldmann/">Michael R. Waldmann</a></span>
-
-  </span>
-  (2016).
-  <a href="/publication/stephan_waldmann_2016/" itemprop="name">Answering Causal Queries About Singular Cases</a>.
-  In <em>A. Papafragou, D. Grodner, D. Mirman, &amp; J.C. Trueswell (Eds.), Proceedings of the 38th Annual Conference of the Cognitive Science Society (pp. 2795-2801). Austin, TX - Cognitive Science Society</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/2016_StephanWaldmann_Answering%20causal%20queries%20about%20singular%20cases.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/stephan_waldmann_2016/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jonas-nagel/">Jonas Nagel</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Simon Stephan</a></span>
-
-  </span>
-  (2016).
-  <a href="/publication/nagel_stephan_2016/" itemprop="name">Explanations in Causal Chains - Selecting Distal Causes Requires Exportable Mechanisms</a>.
-  In <em>A. Papafragou, D. Grodner, D. Mirman, &amp; J.C. Trueswell (Eds.), Proceedings of the 38th Annual Conference of the Cognitive Science Society (pp. 2795-2801). Austin, TX - Cognitive Science Society</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/2016_NagelStephan_Explanations%20in%20causal%20chains_selecting%20distal%20causes.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/nagel_stephan_2016/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/2016_Poster_CogSci_Stephan.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-      
-    
-      
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <span itemprop="author" class="article-metadata li-cite-author">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jonas-nagel/">Jonas Nagel</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Simon Stephan</a></span>
-
-  </span>
-  (2015).
-  <a href="/publication/conference-paper/" itemprop="name">Mediators or alternative explanations - Transitivity in human-mediated causal chains</a>.
-  In <em>D. C. Noelle, R. Dale, A. S. Warlaumont, J. Yoshimi, T. Matlock, C. D. Jennings, &amp; P. P. Maglio (Eds.), Proceedings of the 37th Annual Meeting of the Cognitive Science Society (pp. 1691-1696). Austin, TX - Cognitive Science Society</em>.
-  
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.psych.uni-goettingen.de/de/cognition/publications/pdfs/2015-nagelstephan-mediators-or-alternative.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/conference-paper/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/2015_Poster_CogSci_Stephan.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-
-
-
-</p>
-
-  
-  
-</div>
-
-      
-    
-
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="contact" class="home-section wg-contact   "  >
-    <div class="container">
-      
-
-
-
-
-<div class="row contact-widget">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Contact</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-    
-
-    
-
-    <ul class="fa-ul" itemscope>
-
-      
-      <li>
-        <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email" itemprop="email"><a href="mailto:simon.stephan@psych.uni-goettingen.de">simon.stephan@psych.uni-goettingen.de</a></span>
-      </li>
-      
-
-      
-      <li>
-        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone" itemprop="telephone"><a href="tel:&#43;49551/39-33762">&#43;49551/39-33762</a></span>
-      </li>
-      
-
-      
-      <li>
-        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address" itemprop="address">Department of Cognitive and Decision Sciences, Georg-Elias-Müller Institute of Psychology, University of Göttingen, Goßlerstr. 14 37073 Göttingen</span>
-      </li>
-      
-
-      
-
-      
-      <li>
-        <i class="fa-li fas fa-calendar-check fa-2x" aria-hidden="true"></i>
-        <a href="https://calendly.com/simon_stephan" target="_blank" rel="noopener">Book an appointment</a>
-      </li>
-      
-
-      
-      
-
-    </ul>
-
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-
-
-      
-
-    
-    
-
-    
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
-
-      
-
-      
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
-        
-      
-
-      
-      
-    
-
-    
-    
-
-    
-    
-    
-
-    
-    
-    <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    
-    
-    <script>
-      const search_index_filename = "/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'results': "results found",
-        'no_results': "No results found"
-      };
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'talk' : "Talks"
-        };
-    </script>
-    
-
-    
-    
-
-    
-    
-    <script id="search-hit-fuse-template" type="text/x-template">
-      <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
-        </div>
-      </div>
-      </div>
-    </script>
-    
-
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    
-
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    
-    
-    
-    <script src="/js/academic.min.9ef1b53ee2bde6c7f33b150c6ba4d452.js"></script>
-
-    
-
-
-
-
-
-
-  
-  <div class="container">
-    <footer class="site-footer">
-  
-  <p class="powered-by">
-    <a href="/privacy/"></a>
-  </p>
-  
-
-  <p class="powered-by">
-    Simon Stephan&copy; 2019 &middot; 
-
-    Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
-
-    
-    <span class="float-right" aria-hidden="true">
-      <a href="#" id="back_to_top">
-        <span class="button_icon">
-          <i class="fas fa-chevron-up fa-2x"></i>
-        </span>
-      </a>
-    </span>
-    
-  </p>
-</footer>
-
-  </div>
-  
-
-  
-<div id="modal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cite</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <pre><code class="tex hljs"></code></pre>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
-          <i class="fas fa-copy"></i> Copy
-        </a>
-        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
-          <i class="fas fa-download"></i> Download
-        </a>
-        <div id="modal-error"></div>
-      </div>
-    </div>
-  </div>
-</div>
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 </body>
 </html>
