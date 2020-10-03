@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700&display=swap');
+
+blockquote {
+  font-style: italic
+}
+
+.title {
+  text-align: center;
+  visibility: hidden;
+  margin-top: -0.5em !important;
+  margin-bottom: 0.75em;
+}
+
+body {
+    font-family: 'Muli';
+    font-size: 19px;
+}
+
+.navbar {
+    color: #00FF00;
+}
