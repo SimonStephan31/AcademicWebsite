@@ -4,6 +4,8 @@ blockquote {
   font-style: italic
 }
 
+/* -- Center page titles and remove white space -- */
+
 .title {
   text-align: center;
   visibility: hidden;
@@ -11,11 +13,54 @@ blockquote {
   margin-bottom: 0.75em;
 }
 
+
+/* -- Define the font type of the website's body -- */
 body {
     font-family: 'Muli';
     font-size: 19px;
 }
 
+
+
+/* -- Modify the navbar -- */
 .navbar {
     color: #00FF00;
 }
+
+
+
+/* -- Responsive font size -- */
+body {
+  font-size: calc(0.75em + 1vmin);
+}
+
+
+
+/* -- Define three column sections -- */
+.newspaper {
+  column-count: 3;
+  column-gap: 100px;
+}
+
+
+/* -- Define columns -- */
+.column-left{
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+
+.column-right{
+  float: right;
+  width: 65%;
+  text-align: left;
+}
+
+
+/* -- Clear floats after the columns -- */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
