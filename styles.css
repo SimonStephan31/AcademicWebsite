@@ -48,12 +48,14 @@ body {
   float: left;
   width: 30%;
   text-align: center;
+  padding-left: 10px;
 }
 
 .column-right{
   float: right;
   width: 65%;
   text-align: left;
+  padding-right: 10px;
 }
 
 
