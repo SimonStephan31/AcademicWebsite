@@ -20,6 +20,9 @@ body {
     font-size: 19px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 
 /* -- Modify the navbar -- */
