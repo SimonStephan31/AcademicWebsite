@@ -1,0 +1,140 @@
+---
+title: "Simon Stephan" 
+---
+
+<div class="row">
+<div class="column-left">
+<center>
+![](images/home/avatar.png)  
+<h2> Simon Stephan</h2>
+<p style="color:grey;">Research Scientist in the field of Cognitive Science at the
+University of Göttingen</p>
+[<img src="images/home/mail_icon.png">](mailto:simon.stephan@psych.uni-goettingen.de) [<img src="images/home/github_icon.png">](https://github.com/SimonStephan31) [<img src="images/home/twitter_icon.png">](https://twitter.com/SimonStephan31) [<img src="images/home/scholar_icon.png">](https://scholar.google.de/citations?hl=de&user=_GsFvvAAAAAJ) 
+</center>
+</div class="column-left">
+
+<div class="column-right">
+# About me  
+I am a post-doctoral researcher at the University of Göttingen working in [Michael Waldmann’s](https://www.psych.uni-goettingen.de/de/cognition/team/waldmann) Lab of [Cognitive and Decision Sciences](https://www.psych.uni-goettingen.de/en/cognition?set_language=en). I’m interested in human causal learning and reasoning. Given that causal relationships are neither directly observable nor logically deducible, how do reasoners manage to learn about causes and effect so successfully? How do they use this knowledge to make predictions, diagnoses, or to explain things?
+
+On this website I share information about my academic life. You'll find things like an up-to-date [CV](cv/simonstephan_cv.pdf), my [publication list](#publications), and information about recent/ upcoming presentations (e.g., conference talks).
+
+
+
+### Interests
+- Computational Cognitive Science 
+- Philosophy of Science
+- Causal Cognition 
+- Learning and Reasoning
+
+### Education
+- PhD in Psychology, 2019 <font style="color:grey;">University of Göttingen</font>
+- MSc in Psychology, 2014 <font style="color:grey;">University of Göttingen</font>
+- BSc in Psychology, 2012 <font style="color:grey;">University of Göttingen</font>
+
+### Grants, Honors & Awards
+- 2017 Computational Modeling Prize - Higher Level Cognition <font style="color:grey;">Awarded by the Cognitive Science Society</font>
+- 2016 Leibniz-ScienceCampus Grant, <font style="color:grey;">Project: The relationship between causal and moral judgments</font>
+- 2015 Leibniz-ScienceCampus Grant, <font style="color:grey;">Project: The role of intentions in children's and adult's causal ascriptions</font>
+
+### Teaching 
+- Winter terms (since 2014/15): Statistical Methods I Seminar <font style="color:grey;">As part of the first year undergraduate psychology statistics class</font>
+- Summer terms (since 2015): Statistical Methods II Seminar <font style="color:grey;">As part of the first year undergraduate psychology statistics class</font>
+- see also https://quantigoettingen.github.io/quantigoettingen
+</div class="column-right">
+</div class="row">
+
+
+
+
+\
+
+*****
+
+# Recent Talks & Conference Presentations
+## 2021
+- Poster presentation [virtual] at [CogSci 2021](https://cognitivesciencesociety.org/cogsci-2021/): __Evaluating general versus singular causal prevention__ (July 2021, Vienna) <span title="poster">[<img src="images/home/Lit_poster_icon.png">](publications/Poster_Stephan_et_al_CogSci_2021.pdf)</span>
+
+- Talk [virtual] at [Becog Colloquium](https://www.uni-goettingen.de/en/colloquium/355791.html): __Computational/ mathematical modeling in cognitive science__ (April 2021, Göttingen)
+
+- Talk [virtual] at [CPI-Lab](https://cpilab.org/): __The interplay between covariation, temporal, and mechanism information in singular causation judgments__ (Feb 2021, Tübingen)
+
+## 2020
+- Talk [virtual] at [CIC-Lab](http://cicl.stanford.edu/): __Interpolating Causal Mechanisms - The Paradox of Knowing More__ (Apr 2020, Stanford University)
+
+## 2019
+- Talk at [CRISP-Lab](https://www.psychologie.uni-heidelberg.de/ae/crisp/Home.html): __What made this happen? A computational modeling approach to answering causal queries about singular cases__ (Dez 2019, Heidelberg)
+
+- Talk at [ANaP-Lab](https://www.psych.uni-goettingen.de/de/anap): __Computational Modeling and Progress in Cognitive Science__ (Oct 2019, Göttingen)
+
+- Talk at [ESPP 2019](https://www.europeanspp.org/meetings.html): __The Role of Effect and Sample Size in Causal Induction__ (Sep 2019, Athens)
+
+- Poster at [Euro CogSci 2019](https://www.ruhr-uni-bochum.de/philosophy/EuroCogSci2019/home): __The Role of Effect and Sample Size in Causal Induction__ (Sep 2019, Bochum) <span title="poster">[<img src="images/home/Lit_poster_icon.png">](publications/Poster_EuroCogSci_2019.pdf)</span>
+
+*****
+
+\
+
+
+# Publications<a name="publications"></a>
+
+## Forthcoming
+
+- __Stephan, S.__, & Waldmann, M. R. (2022). The role of mechanism knowledge in singular causation judgments. _Cognition_, 218, 104924. <span title="publication">[<img src="images/home/Lit_pdf_icon.png">](publications/Stephan_Waldmann_2021_MechanismCognit.pdf)</span> <span title = "osf repository">[<img src="images/home/Lit_osf_icon.png">](https://osf.io/325pr/)</span> <span title = "github repository">[<img src="images/home/Lit_git_icon.png">](https://github.com/SimonStephan31/The-Role-of-Mechanism-Information-in-Singular-Causation)</span> 
+
+- Skovgaard-Olsen, N., __Stephan, S.__, & Waldmann, M. R. (in press). Conditionals and the hierarchy of causal queries. _Journal of Experimental Psychology: General_. <span title ="publication">[<img src="images/home/Lit_pdf_icon.png">](https://philarchive.org/archive/SKOCAT-2)</span> <span title ="osf repository">[<img src="images/home/Lit_osf_icon.png">](https://osf.io/fa9rj/)</span> 
+
+- Placì, S., __Stephan, S.__, Waldmann, M. R., & Vallortigara, G. (pre-print). The fundamental role of gravity in the categorization of geometric objects. <span title = "pre-preint">[<img src="images/home/Lit_arxiv_icon.png">](https://doi.org/10.31234/osf.io/78syx)</span> <span title ="osf repository">[<img src="images/home/Lit_osf_icon.png">](https://osf.io/fnsyc/)</span> <span title = "github site">[<img src="images/home/Lit_git_icon.png">](https://simonstephan31.github.io/Geometric_categories_in_3D_and_2D_contexts/)</span>
+
+- __Stephan, S.__, & Waldmann, M. R. (in press). The interplay between covariation, temporal, and mechanism information in singular causation judgments. In A. Wiegmann, & P. Willemsen (Eds.). _Advances in Experimental Philosophy of Causation_. London, UK: Bloomsbury Press. <span title = "pre-print">[<img src="images/home/Lit_arxiv_icon.png">](https://psyarxiv.com/ucafn)</span> <span title ="osf repository">[<img src="images/home/Lit_osf_icon.png">](https://osf.io/j5w2x/)</span>
+
+## 2021
+
+- Gerstenberg, T., & __Stephan, S.__ (2021). A counterfactual simulation model of causation by omission. _Cognition_, 216, 104842. <span title ="publication">[<img src="images/home/Lit_pdf_icon.png">](https://cicl.stanford.edu/papers/gerstenberg2021omission.pdf)</span> <span title="pre-print">[<img src="images/home/Lit_arxiv_icon.png">](https://psyarxiv.com/wmh4c/)</span> <span title ="osf repository">[<img src="images/home/Lit_osf_icon.png">](https://osf.io/jubdz/)</span> <span title ="github repository">[<img src="images/home/Lit_git_icon.png">](https://github.com/cicl-stanford/omission)</span> <span title ="pre-registration">[<img src="images/home/Lit_prereg_icon.png">](https://osf.io/fu9rq)</span> 
+
+- __Stephan, S.__, Placì, Sarah & Waldmann, M. R. (2021). Evaluating general versus singular causal prevention. In T. Fitch, C. Lamm, H. Leder, & K. Tessmar (Eds.), _Proceedings of the 43rd Annual Conference of the Cognitive Science Society._ (pp. 1402--1408). Austin, TX: Cognitive Science Society. <span title="publication">[<img src="images/home/Lit_pdf_icon.png">](https://escholarship.org/uc/item/3z5870v4#main)</span> <span title ="github site">[<img src="images/home/Lit_git_icon.png">](https://simonstephan31.github.io/singular_prevention_proceedings/)</span> <span title="poster">[<img src="images/home/Lit_poster_icon.png">](publications/Poster_Stephan_et_al_CogSci_2021.pdf)</span>
+
+- __Stephan, S.__, Tentori, K., Pighin, S., & Waldmann, M. R. (2021). Interpolating causal mechanisms: The paradox of knowing more. _Journal of Experimental Psychology: General_. Advance online publication. <span title="publication">[<img src="images/home/Lit_pdf_icon.png">](https://doi.apa.org/fulltext/2021-13036-001.pdf)</span> <span title ="osf repository">[<img src="images/home/Lit_osf_icon.png">](https://osf.io/aqzps/)</span>
+
+## 2020
+
+- __Stephan, S.__, & Waldmann, M. R. (2020). Causal scope and causal strength: The number of potential effects of a cause influences causal strength estimates. In S. Denison., M. Mack, Y. Xu, & B.C. Armstrong (Eds.), _Proceedings of the 42th Annual Conference of the Cognitive Science Society_ (pp. 3426 - 3432). Austin, TX: Cognitive Science Society. <span title="publication">[<img src="images/home/Lit_pdf_icon.png">](publications/Stephan-Waldmann-2020-_CausalScopeAndStrength_Proceedings.pdf)</span> <span title="osf repository">[<img src="images/home/Lit_osf_icon.png">](https://osf.io/mjswc/)</span>
+
+- __Stephan, S.__, & Waldmann, M. R. (2020). On causal claims, contingencies, and inference: How causal terminology affects what we think about the strength of causal links. In S. Denison., M. Mack, Y. Xu, & B.C. Armstrong (Eds.), _Proceedings of the 42th Annual Conference of the Cognitive Science Society_ (pp. 3419 - 3425). Austin, TX: Cognitive Science Society. <span title = "publication">[<img src="images/home/Lit_pdf_icon.png">](publications/Stephan-Waldmann-2020-_CausalClaimsAndInference_Proceedings.pdf)</span> <span title ="osf repository">[<img src="images/home/Lit_osf_icon.png">](https://osf.io/5ngpd/)</span>
+
+- __Stephan, S.__, Mayrhofer, R., & Waldmann, M. R. (2020). Time and singular causation - a computational model. _Cognitive Science_, 44, e12871. <span title="publication">[<img src="images/home/Lit_pdf_icon.png">](https://onlinelibrary.wiley.com/doi/epdf/10.1111/cogs.12871)</span> <span title="osf repository">[<img src="images/home/Lit_osf_icon.png">](https://osf.io/5yvs4/)</span> <span title="pre-registration">[<img src="images/home/Lit_prereg_icon.png">](https://osf.io/n93bu)</span>
+
+## 2019
+
+- __Stephan, S.__ (2019). Answering causal queries about singular cases - an evaluation of a new computational model. (Dissertation) <span title="dissertation"[<img src="images/home/Lit_pdf_icon.png">](publications/dissertation_simon_stephan.pdf)</span>
+
+## 2018
+
+- __Stephan, S.__, Mayrhofer, R., & Waldmann, M. R. (2018). Assessing singular causation: The role of causal latencies. In T.T. Rogers, M. Rau, X. Zhu, & C. W. Kalish (Eds.), _Proceedings of the 40th Annual Conference of the Cognitive Science Society_ (pp. 1080 - 1085). Austin, TX: Cognitive Science Society. <span title ="publication">[<img src="images/home/Lit_pdf_icon.png">](publications/Stephan-Mayrhofer-Waldmann-2018-_SingularCausationLatency.pdf)</span>
+
+- __Stephan, S.__, & Waldmann, M. R. (2018). Preemption in singular causation judgments: A computational model. _Topics in Cognitive Science_, 10, 242–257. <span title ="publication">[<img src="images/home/Lit_pdf_icon.png">](https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12309)</span>
+
+## 2017
+
+- __Stephan, S.__, & Waldmann, M. R. (2017). Preemption in singular causation judgments: A computational model. In G. Gunzelmann, A. Howes, T. Tenbrink, & E. Davelaar (Eds.), _Proceedings of the 39th Annual Conference of the Cognitive Science Society_ (pp. 1126-1131). Austin, TX: Cognitive Science Society. (__Computational Modeling: Higher Level Cognition Award of the Cognitive Science Society__). <span title="award">![](images/home/Lit_award_icon.png)</span> <span title="publication">[<img src="images/home/Lit_pdf_icon.png">](publications/Stephan-Waldmann-2017-_Preemption in singular causation judgments-A computational model.pdf)</span>
+
+- __Stephan, S.__, Willemsen, P. & Gerstenberg, T. (2017). Marbles in inaction: Counterfactual simulation and causation by omission. In G. Gunzelmann, A. Howes, T. Tenbrink, & E. Davelaar (Eds.), _Proceedings of the 39th Annual Conference of the Cognitive Science Society_ (pp. 1132-1137). Austin, TX: Cognitive Science Society. <span title="publication">[<img src="images/home/Lit_pdf_icon.png">](publications/Stephan-Willemsen-Gerstenberg-2017-_omissions.pdf)</span>
+
+## 2016
+
+- Nagel, J., & __Stephan, S.__ (2016). Explanations in causal chains: Selecting distal causes requires exportable mechanisms. In A. Papafragou, D. Grodner, D. Mirman, & J.C. Trueswell (Eds.), _Proceedings of the 38th Annual Conference of the Cognitive Science Society_ (pp. 806-811). Austin, TX: Cognitive Science Society. <span title="publication">[<img src="images/home/Lit_pdf_icon.png">](publications/Nagel-Stephan-2016-_Explanations in causal chains_selecting distal causes.pdf)</span> <span title="poster">[<img src="images/home/Lit_poster_icon.png">](https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/2016_Poster_CogSci_Stephan.pdf)</span>
+
+- __Stephan, S.__, & Waldmann, M. R. (2016). Answering causal queries about singular cases. In A. Papafragou, D. Grodner, D. Mirman, & J.C. Trueswell (Eds.), _Proceedings of the 38th Annual Conference of the Cognitive Science Society_ (pp. 2795-2801). Austin, TX: Cognitive Science Society. <span title="publication">[<img src="images/home/Lit_pdf_icon.png">](publications/Stephan-Waldmann-2016_Answering causal queries about singular cases.pdf)</span>
+
+## 2015
+
+- Nagel, J., & __Stephan, S.__. (2015). Mediators or alternative explanations: Transitivity in human-mediated causal chains. In D. C. Noelle, R. Dale, A. S. Warlaumont, J. Yoshimi, T. Matlock, C. D. Jennings, & P. P. Maglio (Eds.), _Proceedings of the 37th Annual Meeting of the Cognitive Science Society_ (pp. 1691-1696). Austin, TX: Cognitive Science Society. <span title="publication">[<img src="images/home/Lit_pdf_icon.png">](publications/Nagel-Stephan-2015_mediators.pdf)</span> <span title="poster">[<img src="images/home/Lit_poster_icon.png">](https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/2015_Poster_CogSci_Stephan.pdf)</span>
+
+
+
+
+
+
+
+
+
