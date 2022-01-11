@@ -18,6 +18,7 @@ blockquote {
 body {
     font-family: 'Muli';
     font-size: 19px;
+	width: 100%;
 }
 
 html {
