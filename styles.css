@@ -1,0 +1,14 @@
+/* css styles */
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  /* -- Define the font type of the website's body -- */
+body {
+    font-family: 'Muli';
+    font-size: 19px;
+	width: 100%;
+}
