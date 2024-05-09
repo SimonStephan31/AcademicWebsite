@@ -1,185 +1,318 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<html>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
 
 
 <title>Simon Stephan</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
+
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link rel="icon" type="image/png" href="favicon.ico"/>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
 }
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/favicon.ico" rel="icon">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 20,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
   }
-}</script>
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
 
 
-<link rel="stylesheet" href="styles.css">
+
+
 </head>
 
-<body class="nav-fixed">
+<body>
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Simon Stephan</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
- <span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">Contact</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./cv/simonstephan_cv.pdf" rel="" target="">
- <span class="menu-text">CV</span></a>
-  </li>  
-</ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
-          </div> <!-- /navcollapse -->
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#biography" id="toc-biography" class="nav-link active" data-scroll-target="#biography">Biography</a>
-  <ul>
-  <li><a href="#grants-honors-awards" id="toc-grants-honors-awards" class="nav-link" data-scroll-target="#grants-honors-awards">Grants, Honors &amp; Awards</a></li>
-  </ul></li>
-  <li><a href="#teaching" id="toc-teaching" class="nav-link" data-scroll-target="#teaching">Teaching</a></li>
-  <li><a href="#selected-publications" id="toc-selected-publications" class="nav-link" data-scroll-target="#selected-publications">Selected Publications</a><a name="publications" class="nav-link" data-scroll-target="undefined"></a></li>
-  <li><a href="#tutorials" id="toc-tutorials" class="nav-link" data-scroll-target="#tutorials">Tutorials</a></li>
-  <li><a href="#recent-talks-conference-presentations" id="toc-recent-talks-conference-presentations" class="nav-link" data-scroll-target="#recent-talks-conference-presentations">Recent Talks &amp; Conference Presentations</a>
-  <ul>
-  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2022</a></li>
-  <li><a href="#section-1" id="toc-section-1" class="nav-link" data-scroll-target="#section-1">2021</a></li>
-  <li><a href="#section-2" id="toc-section-2" class="nav-link" data-scroll-target="#section-2">2020</a></li>
-  <li><a href="#section-3" id="toc-section-3" class="nav-link" data-scroll-target="#section-3">2019</a></li>
-  </ul></li>
-  <li><a href="#all-publications" id="toc-all-publications" class="nav-link" data-scroll-target="#all-publications">All publications</a>
-  <ul>
-  <li><a href="#section-4" id="toc-section-4" class="nav-link" data-scroll-target="#section-4">2023</a></li>
-  <li><a href="#section-5" id="toc-section-5" class="nav-link" data-scroll-target="#section-5">2022</a></li>
-  <li><a href="#section-6" id="toc-section-6" class="nav-link" data-scroll-target="#section-6">2021</a></li>
-  <li><a href="#section-7" id="toc-section-7" class="nav-link" data-scroll-target="#section-7">2020</a></li>
-  <li><a href="#section-8" id="toc-section-8" class="nav-link" data-scroll-target="#section-8">2019</a></li>
-  <li><a href="#section-9" id="toc-section-9" class="nav-link" data-scroll-target="#section-9">2018</a></li>
-  <li><a href="#section-10" id="toc-section-10" class="nav-link" data-scroll-target="#section-10">2017</a></li>
-  <li><a href="#section-11" id="toc-section-11" class="nav-link" data-scroll-target="#section-11">2016</a></li>
-  <li><a href="#section-12" id="toc-section-12" class="nav-link" data-scroll-target="#section-12">2015</a></li>
-  </ul></li>
-  </ul>
-</nav>
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Simon Stephan</a>
     </div>
-<!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="cv/simonstephan_cv.pdf">CV</a>
+</li>
+<li>
+  <a href="contact.html">Contact</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
 
 
 
-<div class="quarto-about-trestles column-page-left">
-  <div class="about-entity">
-    <img src="avatar.png" class="about-image
-  rectangle " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Simon Stephan</h1>
-<p class="subtitle lead">Cognitive Scientist at the University of Göttingen</p>
+<h1 class="title toc-ignore">Simon Stephan</h1>
+
 </div>
-<div class="quarto-title-meta">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="mailto:simon.stephan@psych.uni-goettingen.de" class="about-link" rel="" target="">
-     <span class="about-link-text"><img src="images/home/mail_icon.png"></span>
-  </a>
-  <a href="https://github.com/SimonStephan31" class="about-link" rel="" target="">
-     <span class="about-link-text"><img src="images/home/github_icon.png"></span>
-  </a>
-  <a href="https://twitter.com/SimonStephan31" class="about-link" rel="" target="">
-     <span class="about-link-text"><img src="images/home/twitter_icon.png"></span>
-  </a>
-  <a href="https://scholar.google.de/citations?hl=de&amp;user=_GsFvvAAAAAJ" class="about-link" rel="" target="">
-     <span class="about-link-text"><img src="images/home/scholar_icon.png"></span>
-  </a>
+
+
+<div class="row">
+<div class="column-left">
+<center>
+<img src="images/home/avatar.png" /><br />
+
+<h2>
+Simon Stephan
+</h2>
+<p style="color:grey;">
+Research Scientist in the field of Cognitive Science at the University
+of Göttingen
+</p>
+<a
+href="mailto:simon.stephan@psych.uni-goettingen.de"><img src="images/home/mail_icon.png"></a>
+<a
+href="https://github.com/SimonStephan31"><img src="images/home/github_icon.png"></a>
+<a
+href="https://twitter.com/SimonStephan31"><img src="images/home/twitter_icon.png"></a>
+<a
+href="https://scholar.google.de/citations?hl=de&amp;user=_GsFvvAAAAAJ"><img src="images/home/scholar_icon.png"></a>
+</center>
 </div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<section id="biography" class="level1">
-<h1>Biography</h1>
-<div style="text-align: justify;">
-<p>I am a post-doctoral researcher at the University of Göttingen working in <strong><a href="https://www.psych.uni-goettingen.de/de/cognition/team/waldmann">Michael Waldmann’s</a></strong> Lab of <strong><a href="https://www.psych.uni-goettingen.de/en/cognition?set_language=en">Cognitive and Decision Sciences</a></strong>. I’m very much interested in how minds learn and reason about the causal relationships in the world. Given that causal relations are neither directly observable nor logically deducible, how do reasoners manage to learn about causes and effect so successfully? How do they use this knowledge to make predictions, diagnoses, or to explain things? I’m also fascinated by the more general question of how minds form and use categories.</p>
-<p>On this website I share information about my academic life. You’ll find an up-to-date <strong><a href="cv/simonstephan_cv.pdf">CV</a></strong>, my publication list, and information about recent/ upcoming presentations (e.g., conference talks).</p>
-</div>
-<div class="columns">
-<div class="column" style="width:50%;">
-<section id="interests" class="level2">
-<h2 data-anchor-id="interests">Interests</h2>
+<div id="about-me" class="section level1 column-right">
+<h1>About me</h1>
+<p>I am a post-doctoral researcher at the University of Göttingen
+working in <strong><a
+href="https://www.psych.uni-goettingen.de/de/cognition/team/waldmann">Michael
+Waldmann’s</a></strong> Lab of <strong><a
+href="https://www.psych.uni-goettingen.de/en/cognition?set_language=en">Cognitive
+and Decision Sciences</a></strong>. I’m very much interested in how
+minds learn and reason about the causal relationships in the world.
+Given that causal relations are neither directly observable nor
+logically deducible, how do reasoners manage to learn about causes and
+effect so successfully? How do they use this knowledge to make
+predictions, diagnoses, or to explain things? I’m also fascinated by the
+more general question of how minds form and use categories.</p>
+<p>On this website I share information about my academic life. You’ll
+find an up-to-date <strong><a
+href="cv/simonstephan_cv.pdf">CV</a></strong>, my <strong><a
+href="#publications">publication list</a></strong>, and information
+about recent/ upcoming presentations (e.g., conference talks).</p>
+<div id="interests" class="section level3">
+<h3>Interests</h3>
 <ul>
 <li>Computational Cognitive Science</li>
 <li>Philosophy of Science</li>
@@ -187,422 +320,493 @@ ul.task-list li input[type="checkbox"] {
 <li>Learning and Reasoning</li>
 <li>Statistical Inference</li>
 <li>Open Science</li>
-<li>Cats</li>
 </ul>
-</section>
-</div><div class="column" style="width:50%;">
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
+</div>
+<div id="education" class="section level3">
+<h3>Education</h3>
 <ul>
-<li>PhD in Psychology, 2019 <font style="color:grey;">University of Göttingen</font></li>
-<li>MSc in Psychology, 2014 <font style="color:grey;">University of Göttingen</font></li>
-<li>BSc in Psychology, 2012 <font style="color:grey;">University of Göttingen</font></li>
+<li>PhD in Psychology, 2019 <font style="color:grey;">University of
+Göttingen</font></li>
+<li>MSc in Psychology, 2014 <font style="color:grey;">University of
+Göttingen</font></li>
+<li>BSc in Psychology, 2012 <font style="color:grey;">University of
+Göttingen</font></li>
 </ul>
-</section>
+</div>
+<div id="grants-honors-awards" class="section level3">
+<h3>Grants, Honors &amp; Awards</h3>
+<ul>
+<li>2017 Computational Modeling Prize - Higher Level Cognition
+<font style="color:grey;">Awarded by the Cognitive Science
+Society</font></li>
+<li>2016 Leibniz-ScienceCampus Grant, <font style="color:grey;">Project:
+The relationship between causal and moral judgments</font></li>
+<li>2015 Leibniz-ScienceCampus Grant, <font style="color:grey;">Project:
+The role of intentions in children’s and adult’s causal
+ascriptions</font></li>
+</ul>
+</div>
+<div id="teaching" class="section level3">
+<h3>Teaching</h3>
+<ul>
+<li><p>Winter terms (2014/15 until 2021/22): Quantitative Methods I
+Seminar <font style="color:grey;">As part of the first year
+undergraduate psychology statistics class</font></p></li>
+<li><p>Summer terms (2015 until 2022): Quantitative Methods II Seminar
+<font style="color:grey;">As part of the first year undergraduate
+psychology statistics class</font></p></li>
+<li><p>Winter term 2022/23: Seminar on the principles of learning and
+behavior <font style="color:grey;">As part of the second year
+undergraduate psychology module “Allgemeine Psychology II” (General
+Psychology II)</font></p></li>
+</ul>
+<p>The seminar <em>Quantitative Methods I</em> covers basics of research
+design and the application of hypothesis testing, data visualisation,
+probability theory, descriptive and inferential data analysis, and power
+analyses. <em>Quantitative Methods II</em> focuses on the General Linear
+Model and its applications (regression, ANOVA, contrast analyses,
+multilevel models). Students learn to apply these methods with R and
+RStudio.</p>
+<p>An overview of the teaching resources (including teaching videos) is
+given at: <a href="https://quantigoettingen.github.io/quantigoettingen"
+class="uri">https://quantigoettingen.github.io/quantigoettingen</a></p>
+<p>I also supervised a number of Bachelor and Master projects (see my <a
+href="https://www.simonstephan.com/cv/simonstephan_cv.pdf">CV</a> for a
+list).</p>
 </div>
 </div>
-<section id="grants-honors-awards" class="level2">
-<h2 data-anchor-id="grants-honors-awards">Grants, Honors &amp; Awards</h2>
-<ul>
-<li>2017 Computational Modeling Prize - Higher Level Cognition <font style="color:grey;">Awarded by the Cognitive Science Society</font></li>
-<li>2016 Leibniz-ScienceCampus Grant, <font style="color:grey;">Project: The relationship between causal and moral judgments</font></li>
-<li>2015 Leibniz-ScienceCampus Grant, <font style="color:grey;">Project: The role of intentions in childrens’ and adults’ causal ascriptions</font></li>
-</ul>
-</section>
-</section>
-</div></div>
 </div>
-
-<section id="teaching" class="level1">
-<h1>Teaching</h1>
-<ul>
-<li><p>Winter terms (2014/15 until 2021/22): Quantitative Methods I Seminar <font style="color:grey;">As part of the first year undergraduate psychology statistics class</font></p></li>
-<li><p>Summer terms (2015 until 2022): Quantitative Methods II Seminar <font style="color:grey;">As part of the first year undergraduate psychology statistics class</font></p></li>
-<li><p>Winter term 2022/23: Seminar on the principles of learning and behavior <font style="color:grey;">As part of the second year undergraduate psychology module “Allgemeine Psychology II” (General Psychology II)</font></p></li>
-</ul>
-<p>The seminar <em>Quantitative Methods I</em> covers basics of research design and the application of hypothesis testing, data visualisation, probability theory, descriptive and inferential data analysis, and power analyses. <em>Quantitative Methods II</em> focuses on the General Linear Model and its applications (regression, ANOVA, contrast analyses, multilevel models). Students learn to apply these methods with R and RStudio.</p>
-<p>An overview of the teaching resources (including teaching videos) can be found <a href="https://quantigoettingen.github.io/quantigoettingen">here</a>.</p>
-<p>I also supervised a number of Bachelor and Master projects (see my <a href="https://www.simonstephan.com/cv/simonstephan_cv.pdf">CV</a> for a list).</p>
-<p><br>
+<p><br />
 </p>
-</section>
-<section id="selected-publications" class="level1">
+<div id="selected-publications" class="section level1">
 <h1>Selected Publications<a name="publications"></a></h1>
 <ul>
-<li><p><strong>Stephan, S.</strong> (2023). Revisiting the narrow latent scope bias in explanatory reasoning. <em>Cognition</em>, 241, 105630.<span title="publication"><a href="publications/Stephan_2023_RevisitingTheNarrowLatentScopeBias.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="github site"><a href="https://simonstephan31.github.io/revisit_nlsbias/index.html"><img src="images/home/Lit_git_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/n94ed/"><img src="images/home/Lit_osf_icon.png"></a></span><span title="pre-print"><a href="https://psyarxiv.com/a8cve/"><img src="images/home/Lit_arxiv_icon.png"></a></span></p></li>
-<li><p><strong>Stephan, S.</strong>, Engelmann, N., &amp; Waldmann, M. R. (2023). The perceived dilution of causal strength. <em>Cognitive Psychology</em>, 140, 101540.<span title="publication"><a href="publications/Stephan_Engelmann_Waldmann_2023_strengthDilution.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="github site"><a href="https://simonstephan31.github.io/The-Dilution-of-Causal-Strength/index.html"><img src="images/home/Lit_git_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/nrv7p/"><img src="images/home/Lit_osf_icon.png"></a></span></p></li>
-<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2022). The role of mechanism knowledge in singular causation judgments. <em>Cognition</em>, 218, 104924. <span title="publication"><a href="publications/Stephan_Waldmann_2021_MechanismCognit.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/325pr/"><img src="images/home/Lit_osf_icon.png"></a></span> <span title="github repository"><a href="https://github.com/SimonStephan31/The-Role-of-Mechanism-Information-in-Singular-Causation"><img src="images/home/Lit_git_icon.png"></a></span></p></li>
-<li><p><strong>Stephan, S.</strong>, Tentori, K., Pighin, S., &amp; Waldmann, M. R. (2021). Interpolating causal mechanisms: The paradox of knowing more. <em>Journal of Experimental Psychology: General</em>, 150(8), 1500-1527. <span title="publication"><a href="https://doi.apa.org/fulltext/2021-13036-001.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/aqzps/"><img src="images/home/Lit_osf_icon.png"></a></span></p></li>
-<li><p>Gerstenberg, T., &amp; <strong>Stephan, S.</strong> (2021). A counterfactual simulation model of causation by omission. <em>Cognition</em>, 216, 104842. <span title="publication"><a href="https://cicl.stanford.edu/papers/gerstenberg2021omission.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="pre-print"><a href="https://psyarxiv.com/wmh4c/"><img src="images/home/Lit_arxiv_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/jubdz/"><img src="images/home/Lit_osf_icon.png"></a></span> <span title="github repository"><a href="https://github.com/cicl-stanford/omission"><img src="images/home/Lit_git_icon.png"></a></span> <span title="pre-registration"><a href="https://osf.io/fu9rq"><img src="images/home/Lit_prereg_icon.png"></a></span></p></li>
-<li><p><strong>Stephan, S.</strong>, Mayrhofer, R., &amp; Waldmann, M. R. (2020). Time and singular causation - a computational model. <em>Cognitive Science</em>, 44, e12871. <span title="publication"><a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/cogs.12871"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/5yvs4/"><img src="images/home/Lit_osf_icon.png"></a></span> <span title="pre-registration"><a href="https://osf.io/n93bu"><img src="images/home/Lit_prereg_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong> (2024). Reasoning about actual
+causation in reversible and irreversible causal structures. <em>Journal
+of Experimental Psychology: Learning, Memory, and Cognition</em>.
+Advance online publication<span title="publication"><a
+href="publications/Stephan_2024_ActualCausation_in_ReversibleStructures.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="github site"><a
+href="https://simonstephan31.github.io/actual_cause_reverse/index.html"><img src="images/home/Lit_git_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/dnbf6/"><img src="images/home/Lit_osf_icon.png"></a></span><span
+title="pre-print"><a
+href="XXX"><img src="images/home/Lit_arxiv_icon.png"></a></span> <span
+title="pre-registration"><a
+href="https://osf.io/dnbf6/registrations"><img src="images/home/Lit_prereg_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong> (2023). Revisiting the narrow latent
+scope bias in explanatory reasoning. <em>Cognition</em>, 241,
+105630.<span title="publication"><a
+href="publications/Stephan_2023_RevisitingTheNarrowLatentScopeBias.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="github site"><a
+href="https://simonstephan31.github.io/revisit_nlsbias/index.html"><img src="images/home/Lit_git_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/n94ed/"><img src="images/home/Lit_osf_icon.png"></a></span><span
+title="pre-print"><a
+href="https://psyarxiv.com/a8cve/"><img src="images/home/Lit_arxiv_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, Engelmann, N., &amp; Waldmann, M.
+R. (2023). The perceived dilution of causal strength. <em>Cognitive
+Psychology</em>, 140, 101540.<span title="publication"><a
+href="publications/Stephan_Engelmann_Waldmann_2023_strengthDilution.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="github site"><a
+href="https://simonstephan31.github.io/The-Dilution-of-Causal-Strength/index.html"><img src="images/home/Lit_git_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/nrv7p/"><img src="images/home/Lit_osf_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2022). The
+role of mechanism knowledge in singular causation judgments.
+<em>Cognition</em>, 218, 104924. <span title="publication"><a
+href="publications/Stephan_Waldmann_2021_MechanismCognit.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/325pr/"><img src="images/home/Lit_osf_icon.png"></a></span>
+<span title="github repository"><a
+href="https://github.com/SimonStephan31/The-Role-of-Mechanism-Information-in-Singular-Causation"><img src="images/home/Lit_git_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, Tentori, K., Pighin, S., &amp;
+Waldmann, M. R. (2021). Interpolating causal mechanisms: The paradox of
+knowing more. <em>Journal of Experimental Psychology: General</em>,
+150(8), 1500-1527. <span title="publication"><a
+href="https://doi.apa.org/fulltext/2021-13036-001.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/aqzps/"><img src="images/home/Lit_osf_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, Mayrhofer, R., &amp; Waldmann, M.
+R. (2020). Time and singular causation - a computational model.
+<em>Cognitive Science</em>, 44, e12871. <span title="publication"><a
+href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/cogs.12871"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/5yvs4/"><img src="images/home/Lit_osf_icon.png"></a></span>
+<span title="pre-registration"><a
+href="https://osf.io/n93bu"><img src="images/home/Lit_prereg_icon.png"></a></span></p></li>
 </ul>
-<p><br>
+<hr />
+<p><br />
 </p>
-</section>
-<section id="tutorials" class="level1">
+</div>
+<div id="tutorials" class="section level1">
 <h1>Tutorials</h1>
-<p>I’m passionate about online experiments and created a small series of YouTube-Tutorials where I show how to create a “typical cognitive science” experiment using <a href="https://www.jspsych.org/7.3/">JsPsych</a>.</p>
-<br>
+<p>I’m passionate about online experiments and created a small series of
+YouTube-Tutorials where I show how to create a “typical cognitive
+science” experiment using <a
+href="https://www.jspsych.org/7.3/">JsPsych</a>.</p>
+<br />
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nzyM925rUjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nzyM925rUjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
 </center>
-<p><br></p>
-<p><br>
+<p><br /></p>
+<hr />
+<p><br />
 </p>
-</section>
-<section id="recent-talks-conference-presentations" class="level1">
+</div>
+<div id="recent-talks-conference-presentations" class="section level1">
 <h1>Recent Talks &amp; Conference Presentations</h1>
-<section id="section" class="level2">
-<h2 data-anchor-id="section">2022</h2>
+<div id="section" class="section level2">
+<h2>2022</h2>
 <ul>
-<li><p>Flash talk presentation at <a href="https://cognitivesciencesociety.org/cogsci-2022/">CogSci 2022</a>: <strong>The Perceived Dilution of Causal Strength</strong> (July 2022, Toronto [remote]) <span title="poster"><a href="publications/Dilution_Poster_2022.pdf"><img src="images/home/Lit_poster_icon.png"></a></span></p></li>
-<li><p>Poster presentation at <a href="https://espp-spp-2022.com/">SPP &amp; ESPP</a>: <strong>The Perceived Dilution of Causal Strength</strong> (July 2022, Milan, Italy) <span title="poster"><a href="publications/Dilution_Poster_2022.pdf"><img src="images/home/Lit_poster_icon.png"></a></span></p></li>
-<li><p>Invited Talk [virtual] at the <a href="https://www.ucl.ac.uk/pals/london-judgment-and-decision-making-seminars">London Judgment and Decision Making Seminar</a>: <strong>The interplay between covariation, temporal, and mechanism information in singular causation judgments</strong> (Jan 2021, London)</p></li>
-<li><p>Invited Talk [virtual] at the <a href="https://www.ucl.ac.uk/pals/london-judgment-and-decision-making-seminars">Computational Cognitive Science Group</a> at the University of Edinburgh: <strong>The interplay between covariation, temporal, and mechanism information in singular causation judgments</strong> (Jan 2021, London)</p></li>
+<li><p>Flash talk presentation at <a
+href="https://cognitivesciencesociety.org/cogsci-2022/">CogSci 2022</a>:
+<strong>The Perceived Dilution of Causal Strength</strong> (July 2022,
+Toronto [remote]) <span title="poster"><a
+href="publications/Dilution_Poster_2022.pdf"><img src="images/home/Lit_poster_icon.png"></a></span></p></li>
+<li><p>Poster presentation at <a href="https://espp-spp-2022.com/">SPP
+&amp; ESPP</a>: <strong>The Perceived Dilution of Causal
+Strength</strong> (July 2022, Milan, Italy) <span title="poster"><a
+href="publications/Dilution_Poster_2022.pdf"><img src="images/home/Lit_poster_icon.png"></a></span></p></li>
+<li><p>Invited Talk [virtual] at the <a
+href="https://www.ucl.ac.uk/pals/london-judgment-and-decision-making-seminars">London
+Judgment and Decision Making Seminar</a>: <strong>The interplay between
+covariation, temporal, and mechanism information in singular causation
+judgments</strong> (Jan 2021, London)</p></li>
+<li><p>Invited Talk [virtual] at the <a
+href="https://www.ucl.ac.uk/pals/london-judgment-and-decision-making-seminars">Computational
+Cognitive Science Group</a> at the University of Edinburgh: <strong>The
+interplay between covariation, temporal, and mechanism information in
+singular causation judgments</strong> (Jan 2021, London)</p></li>
 </ul>
-</section>
-<section id="section-1" class="level2">
-<h2 data-anchor-id="section-1">2021</h2>
+</div>
+<div id="section-1" class="section level2">
+<h2>2021</h2>
 <ul>
-<li><p>Poster presentation [virtual] at <a href="https://cognitivesciencesociety.org/cogsci-2021/">CogSci 2021</a>: <strong>Evaluating general versus singular causal prevention</strong> (July 2021, Vienna) <span title="poster"><a href="publications/Poster_Stephan_et_al_CogSci_2021.pdf"><img src="images/home/Lit_poster_icon.png"></a></span></p></li>
-<li><p>Invited Talk [virtual] at <a href="https://www.uni-goettingen.de/en/colloquium/355791.html">Becog Colloquium</a>: <strong>Computational/ mathematical modeling in cognitive science</strong> (April 2021, Göttingen)</p></li>
-<li><p>Invited Talk [virtual] at the <a href="https://cpilab.org/">CPI Lab</a> Tübingen: <strong>The interplay between covariation, temporal, and mechanism information in singular causation judgments</strong> (Jan 2021, London)</p></li>
+<li><p>Poster presentation [virtual] at <a
+href="https://cognitivesciencesociety.org/cogsci-2021/">CogSci 2021</a>:
+<strong>Evaluating general versus singular causal prevention</strong>
+(July 2021, Vienna) <span title="poster"><a
+href="publications/Poster_Stephan_et_al_CogSci_2021.pdf"><img src="images/home/Lit_poster_icon.png"></a></span></p></li>
+<li><p>Invited Talk [virtual] at <a
+href="https://www.uni-goettingen.de/en/colloquium/355791.html">Becog
+Colloquium</a>: <strong>Computational/ mathematical modeling in
+cognitive science</strong> (April 2021, Göttingen)</p></li>
+<li><p>Invited Talk [virtual] at the <a href="https://cpilab.org/">CPI
+Lab</a> Tübingen: <strong>The interplay between covariation, temporal,
+and mechanism information in singular causation judgments</strong> (Jan
+2021, London)</p></li>
 </ul>
-</section>
-<section id="section-2" class="level2">
-<h2 data-anchor-id="section-2">2020</h2>
+</div>
+<div id="section-2" class="section level2">
+<h2>2020</h2>
 <ul>
-<li>Talk [virtual] at <a href="http://cicl.stanford.edu/">CIC-Lab</a>: <strong>Interpolating Causal Mechanisms - The Paradox of Knowing More</strong> (Apr 2020, Stanford University)</li>
+<li>Talk [virtual] at <a href="http://cicl.stanford.edu/">CIC-Lab</a>:
+<strong>Interpolating Causal Mechanisms - The Paradox of Knowing
+More</strong> (Apr 2020, Stanford University)</li>
 </ul>
-</section>
-<section id="section-3" class="level2">
-<h2 data-anchor-id="section-3">2019</h2>
+</div>
+<div id="section-3" class="section level2">
+<h2>2019</h2>
 <ul>
-<li><p>Talk at <a href="https://www.psychologie.uni-heidelberg.de/ae/crisp/Home.html">CRISP-Lab</a>: <strong>What made this happen? A computational modeling approach to answering causal queries about singular cases</strong> (Dez 2019, Heidelberg)</p></li>
-<li><p>Talk at <a href="https://www.psych.uni-goettingen.de/de/anap">ANaP-Lab</a>: <strong>Computational Modeling and Progress in Cognitive Science</strong> (Oct 2019, Göttingen)</p></li>
-<li><p>Talk at <a href="https://www.europeanspp.org/meetings.html">ESPP 2019</a>: <strong>The Role of Effect and Sample Size in Causal Induction</strong> (Sep 2019, Athens)</p></li>
-<li><p>Poster at <a href="https://www.ruhr-uni-bochum.de/philosophy/EuroCogSci2019/home">Euro CogSci 2019</a>: <strong>The Role of Effect and Sample Size in Causal Induction</strong> (Sep 2019, Bochum) <span title="poster"><a href="publications/Poster_EuroCogSci_2019.pdf"><img src="images/home/Lit_poster_icon.png"></a></span></p></li>
+<li><p>Talk at <a
+href="https://www.psychologie.uni-heidelberg.de/ae/crisp/Home.html">CRISP-Lab</a>:
+<strong>What made this happen? A computational modeling approach to
+answering causal queries about singular cases</strong> (Dez 2019,
+Heidelberg)</p></li>
+<li><p>Talk at <a
+href="https://www.psych.uni-goettingen.de/de/anap">ANaP-Lab</a>:
+<strong>Computational Modeling and Progress in Cognitive
+Science</strong> (Oct 2019, Göttingen)</p></li>
+<li><p>Talk at <a href="https://www.europeanspp.org/meetings.html">ESPP
+2019</a>: <strong>The Role of Effect and Sample Size in Causal
+Induction</strong> (Sep 2019, Athens)</p></li>
+<li><p>Poster at <a
+href="https://www.ruhr-uni-bochum.de/philosophy/EuroCogSci2019/home">Euro
+CogSci 2019</a>: <strong>The Role of Effect and Sample Size in Causal
+Induction</strong> (Sep 2019, Bochum) <span title="poster"><a
+href="publications/Poster_EuroCogSci_2019.pdf"><img src="images/home/Lit_poster_icon.png"></a></span></p></li>
 </ul>
-<p><br>
+<hr />
+<p><br />
 </p>
-</section>
-</section>
-<section id="all-publications" class="level1">
+</div>
+</div>
+<div id="all-publications" class="section level1">
 <h1>All publications</h1>
 <!---
 ## Forthcoming
 
 - Placì, S., __Stephan, S.__, Waldmann, M. R., & Vallortigara, G. (under review). When Newton beats Euclid: intuitive physics underlies sensitivity to geometry. <span title = "pre-preint">[<img src="images/home/Lit_arxiv_icon.png">](https://doi.org/10.31234/osf.io/78syx)</span> <span title ="osf repository">[<img src="images/home/Lit_osf_icon.png">](https://osf.io/fnsyc/)</span> <span title = "github site">[<img src="images/home/Lit_git_icon.png">](https://simonstephan31.github.io/Geometric_categories_in_3D_and_2D_contexts/)</span>
 -->
-<section id="section-4" class="level2">
-<h2 data-anchor-id="section-4">2023</h2>
+<div id="section-4" class="section level2">
+<h2>2024</h2>
 <ul>
-<li><p><strong>Stephan, S.</strong> (2023). Revisiting the narrow latent scope bias in explanatory reasoning. <em>Cognition</em>, 241, 105630.<span title="publication"><a href="publications/Stephan_2023_RevisitingTheNarrowLatentScopeBias.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="github site"><a href="https://simonstephan31.github.io/revisit_nlsbias/index.html"><img src="images/home/Lit_git_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/n94ed/"><img src="images/home/Lit_osf_icon.png"></a></span><span title="pre-print"><a href="https://psyarxiv.com/a8cve/"><img src="images/home/Lit_arxiv_icon.png"></a></span></p></li>
-<li><p><strong>Stephan, S.</strong>, Engelmann, N., &amp; Waldmann, M. R. (2023). The perceived dilution of causal strength. <em>Cognitive Psychology</em>, 140, 101540.<span title="publication"><a href="publications/Stephan_Engelmann_Waldmann_2023_strengthDilution.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="github site"><a href="https://simonstephan31.github.io/The-Dilution-of-Causal-Strength/index.html"><img src="images/home/Lit_git_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/nrv7p/"><img src="images/home/Lit_osf_icon.png"></a></span></p></li>
+<li><strong>Stephan, S.</strong> (2024). Reasoning about actual
+causation in reversible and irreversible causal structures. <em>Journal
+of Experimental Psychology: Learning, Memory, and Cognition</em>.
+Advance online publication<span title="publication"><a
+href="publications/Stephan_2024_ActualCausation_in_ReversibleStructures.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="github site"><a
+href="https://simonstephan31.github.io/actual_cause_reverse/index.html"><img src="images/home/Lit_git_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/dnbf6/"><img src="images/home/Lit_osf_icon.png"></a></span><span
+title="pre-print"><a
+href="XXX"><img src="images/home/Lit_arxiv_icon.png"></a></span> <span
+title="pre-registration"><a
+href="https://osf.io/dnbf6/registrations"><img src="images/home/Lit_prereg_icon.png"></a></span></li>
 </ul>
-</section>
-<section id="section-5" class="level2">
-<h2 data-anchor-id="section-5">2022</h2>
+</div>
+<div id="section-5" class="section level2">
+<h2>2023</h2>
 <ul>
-<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2022). The interplay between covariation, temporal, and mechanism information in singular causation judgments. In A. Wiegmann, &amp; P. Willemsen (Eds.). <em>Advances in Experimental Philosophy of Causation</em>. London, UK: Bloomsbury Press. <span title="pre-print"><a href="https://psyarxiv.com/ucafn"><img src="images/home/Lit_arxiv_icon.png"></a></span></p></li>
-<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2022). The role of mechanism knowledge in singular causation judgments. <em>Cognition</em>, 218, 104924. <span title="publication"><a href="publications/Stephan_Waldmann_2021_MechanismCognit.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/325pr/"><img src="images/home/Lit_osf_icon.png"></a></span> <span title="github repository"><a href="https://github.com/SimonStephan31/The-Role-of-Mechanism-Information-in-Singular-Causation"><img src="images/home/Lit_git_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong> (2023). Revisiting the narrow latent
+scope bias in explanatory reasoning. <em>Cognition</em>, 241,
+105630.<span title="publication"><a
+href="publications/Stephan_2023_RevisitingTheNarrowLatentScopeBias.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="github site"><a
+href="https://simonstephan31.github.io/revisit_nlsbias/index.html"><img src="images/home/Lit_git_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/n94ed/"><img src="images/home/Lit_osf_icon.png"></a></span><span
+title="pre-print"><a
+href="https://psyarxiv.com/a8cve/"><img src="images/home/Lit_arxiv_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, Engelmann, N., &amp; Waldmann, M.
+R. (2023). The perceived dilution of causal strength. <em>Cognitive
+Psychology</em>, 140, 101540.<span title="publication"><a
+href="publications/Stephan_Engelmann_Waldmann_2023_strengthDilution.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="github site"><a
+href="https://simonstephan31.github.io/The-Dilution-of-Causal-Strength/index.html"><img src="images/home/Lit_git_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/nrv7p/"><img src="images/home/Lit_osf_icon.png"></a></span></p></li>
 </ul>
-</section>
-<section id="section-6" class="level2">
-<h2 data-anchor-id="section-6">2021</h2>
+</div>
+<div id="section-6" class="section level2">
+<h2>2022</h2>
 <ul>
-<li><p>Skovgaard-Olsen, N., <strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2021). Conditionals and the hierarchy of causal queries. <em>Journal of Experimental Psychology: General</em>, 150, 2472–2505. <span title="publication"><a href="https://philarchive.org/archive/SKOCAT-2"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/fa9rj/"><img src="images/home/Lit_osf_icon.png"></a></span></p></li>
-<li><p>Gerstenberg, T., &amp; <strong>Stephan, S.</strong> (2021). A counterfactual simulation model of causation by omission. <em>Cognition</em>, 216, 104842. <span title="publication"><a href="https://cicl.stanford.edu/papers/gerstenberg2021omission.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="pre-print"><a href="https://psyarxiv.com/wmh4c/"><img src="images/home/Lit_arxiv_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/jubdz/"><img src="images/home/Lit_osf_icon.png"></a></span> <span title="github repository"><a href="https://github.com/cicl-stanford/omission"><img src="images/home/Lit_git_icon.png"></a></span> <span title="pre-registration"><a href="https://osf.io/fu9rq"><img src="images/home/Lit_prereg_icon.png"></a></span></p></li>
-<li><p><strong>Stephan, S.</strong>, Placì, Sarah &amp; Waldmann, M. R. (2021). Evaluating general versus singular causal prevention. In T. Fitch, C. Lamm, H. Leder, &amp; K. Tessmar (Eds.), <em>Proceedings of the 43rd Annual Conference of the Cognitive Science Society.</em> (pp.&nbsp;1402–1408). Austin, TX: Cognitive Science Society. <span title="publication"><a href="https://escholarship.org/uc/item/3z5870v4#main"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="github site"><a href="https://simonstephan31.github.io/singular_prevention_proceedings/"><img src="images/home/Lit_git_icon.png"></a></span> <span title="poster"><a href="publications/Poster_Stephan_et_al_CogSci_2021.pdf"><img src="images/home/Lit_poster_icon.png"></a></span></p></li>
-<li><p><strong>Stephan, S.</strong>, Tentori, K., Pighin, S., &amp; Waldmann, M. R. (2021). Interpolating causal mechanisms: The paradox of knowing more. <em>Journal of Experimental Psychology: General</em>, 150(8), 1500-1527. <span title="publication"><a href="https://doi.apa.org/fulltext/2021-13036-001.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/aqzps/"><img src="images/home/Lit_osf_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2022). The
+interplay between covariation, temporal, and mechanism information in
+singular causation judgments. In A. Wiegmann, &amp; P. Willemsen (Eds.).
+<em>Advances in Experimental Philosophy of Causation</em>. London, UK:
+Bloomsbury Press. <span title="pre-print"><a
+href="https://psyarxiv.com/ucafn"><img src="images/home/Lit_arxiv_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2022). The
+role of mechanism knowledge in singular causation judgments.
+<em>Cognition</em>, 218, 104924. <span title="publication"><a
+href="publications/Stephan_Waldmann_2021_MechanismCognit.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/325pr/"><img src="images/home/Lit_osf_icon.png"></a></span>
+<span title="github repository"><a
+href="https://github.com/SimonStephan31/The-Role-of-Mechanism-Information-in-Singular-Causation"><img src="images/home/Lit_git_icon.png"></a></span></p></li>
 </ul>
-</section>
-<section id="section-7" class="level2">
-<h2 data-anchor-id="section-7">2020</h2>
+</div>
+<div id="section-7" class="section level2">
+<h2>2021</h2>
 <ul>
-<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2020). Causal scope and causal strength: The number of potential effects of a cause influences causal strength estimates. In S. Denison., M. Mack, Y. Xu, &amp; B.C. Armstrong (Eds.), <em>Proceedings of the 42th Annual Conference of the Cognitive Science Society</em> (pp.&nbsp;3426 - 3432). Austin, TX: Cognitive Science Society. <span title="publication"><a href="publications/Stephan-Waldmann-2020-_CausalScopeAndStrength_Proceedings.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/mjswc/"><img src="images/home/Lit_osf_icon.png"></a></span></p></li>
-<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2020). On causal claims, contingencies, and inference: How causal terminology affects what we think about the strength of causal links. In S. Denison., M. Mack, Y. Xu, &amp; B.C. Armstrong (Eds.), <em>Proceedings of the 42th Annual Conference of the Cognitive Science Society</em> (pp.&nbsp;3419 - 3425). Austin, TX: Cognitive Science Society. <span title="publication"><a href="publications/Stephan-Waldmann-2020-_CausalClaimsAndInference_Proceedings.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/5ngpd/"><img src="images/home/Lit_osf_icon.png"></a></span></p></li>
-<li><p><strong>Stephan, S.</strong>, Mayrhofer, R., &amp; Waldmann, M. R. (2020). Time and singular causation - a computational model. <em>Cognitive Science</em>, 44, e12871. <span title="publication"><a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/cogs.12871"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="osf repository"><a href="https://osf.io/5yvs4/"><img src="images/home/Lit_osf_icon.png"></a></span> <span title="pre-registration"><a href="https://osf.io/n93bu"><img src="images/home/Lit_prereg_icon.png"></a></span></p></li>
+<li><p>Skovgaard-Olsen, N., <strong>Stephan, S.</strong>, &amp;
+Waldmann, M. R. (2021). Conditionals and the hierarchy of causal
+queries. <em>Journal of Experimental Psychology: General</em>, 150,
+2472–2505. <span title="publication"><a
+href="https://philarchive.org/archive/SKOCAT-2"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/fa9rj/"><img src="images/home/Lit_osf_icon.png"></a></span></p></li>
+<li><p>Gerstenberg, T., &amp; <strong>Stephan, S.</strong> (2021). A
+counterfactual simulation model of causation by omission.
+<em>Cognition</em>, 216, 104842. <span title="publication"><a
+href="https://cicl.stanford.edu/papers/gerstenberg2021omission.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="pre-print"><a
+href="https://psyarxiv.com/wmh4c/"><img src="images/home/Lit_arxiv_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/jubdz/"><img src="images/home/Lit_osf_icon.png"></a></span>
+<span title="github repository"><a
+href="https://github.com/cicl-stanford/omission"><img src="images/home/Lit_git_icon.png"></a></span>
+<span title="pre-registration"><a
+href="https://osf.io/fu9rq"><img src="images/home/Lit_prereg_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, Placì, Sarah &amp; Waldmann, M. R.
+(2021). Evaluating general versus singular causal prevention. In T.
+Fitch, C. Lamm, H. Leder, &amp; K. Tessmar (Eds.), <em>Proceedings of
+the 43rd Annual Conference of the Cognitive Science Society.</em>
+(pp. 1402–1408). Austin, TX: Cognitive Science Society. <span
+title="publication"><a
+href="https://escholarship.org/uc/item/3z5870v4#main"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="github site"><a
+href="https://simonstephan31.github.io/singular_prevention_proceedings/"><img src="images/home/Lit_git_icon.png"></a></span>
+<span title="poster"><a
+href="publications/Poster_Stephan_et_al_CogSci_2021.pdf"><img src="images/home/Lit_poster_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, Tentori, K., Pighin, S., &amp;
+Waldmann, M. R. (2021). Interpolating causal mechanisms: The paradox of
+knowing more. <em>Journal of Experimental Psychology: General</em>,
+150(8), 1500-1527. <span title="publication"><a
+href="https://doi.apa.org/fulltext/2021-13036-001.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/aqzps/"><img src="images/home/Lit_osf_icon.png"></a></span></p></li>
 </ul>
-</section>
-<section id="section-8" class="level2">
-<h2 data-anchor-id="section-8">2019</h2>
+</div>
+<div id="section-8" class="section level2">
+<h2>2020</h2>
 <ul>
-<li><strong>Stephan, S.</strong> (2019). Answering causal queries about singular cases - an evaluation of a new computational model. (Dissertation) <span title="dissertation"><a href="publications/dissertation_simon_stephan.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span></li>
+<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2020).
+Causal scope and causal strength: The number of potential effects of a
+cause influences causal strength estimates. In S. Denison., M. Mack, Y.
+Xu, &amp; B.C. Armstrong (Eds.), <em>Proceedings of the 42th Annual
+Conference of the Cognitive Science Society</em> (pp. 3426 - 3432).
+Austin, TX: Cognitive Science Society. <span title="publication"><a
+href="publications/Stephan-Waldmann-2020-_CausalScopeAndStrength_Proceedings.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/mjswc/"><img src="images/home/Lit_osf_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2020). On
+causal claims, contingencies, and inference: How causal terminology
+affects what we think about the strength of causal links. In S.
+Denison., M. Mack, Y. Xu, &amp; B.C. Armstrong (Eds.), <em>Proceedings
+of the 42th Annual Conference of the Cognitive Science Society</em>
+(pp. 3419 - 3425). Austin, TX: Cognitive Science Society. <span
+title="publication"><a
+href="publications/Stephan-Waldmann-2020-_CausalClaimsAndInference_Proceedings.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/5ngpd/"><img src="images/home/Lit_osf_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, Mayrhofer, R., &amp; Waldmann, M.
+R. (2020). Time and singular causation - a computational model.
+<em>Cognitive Science</em>, 44, e12871. <span title="publication"><a
+href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/cogs.12871"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="osf repository"><a
+href="https://osf.io/5yvs4/"><img src="images/home/Lit_osf_icon.png"></a></span>
+<span title="pre-registration"><a
+href="https://osf.io/n93bu"><img src="images/home/Lit_prereg_icon.png"></a></span></p></li>
 </ul>
-</section>
-<section id="section-9" class="level2">
-<h2 data-anchor-id="section-9">2018</h2>
+</div>
+<div id="section-9" class="section level2">
+<h2>2019</h2>
 <ul>
-<li><p><strong>Stephan, S.</strong>, Mayrhofer, R., &amp; Waldmann, M. R. (2018). Assessing singular causation: The role of causal latencies. In T.T. Rogers, M. Rau, X. Zhu, &amp; C. W. Kalish (Eds.), <em>Proceedings of the 40th Annual Conference of the Cognitive Science Society</em> (pp.&nbsp;1080 - 1085). Austin, TX: Cognitive Science Society. <span title="publication"><a href="publications/Stephan-Mayrhofer-Waldmann-2018-_SingularCausationLatency.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span></p></li>
-<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2018). Preemption in singular causation judgments: A computational model. <em>Topics in Cognitive Science</em>, 10, 242–257. <span title="publication"><a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12309"><img src="images/home/Lit_pdf_icon.png"></a></span></p></li>
+<li><strong>Stephan, S.</strong> (2019). Answering causal queries about
+singular cases - an evaluation of a new computational model.
+(Dissertation) <span title="dissertation"><a
+href="publications/dissertation_simon_stephan.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span></li>
 </ul>
-</section>
-<section id="section-10" class="level2">
-<h2 data-anchor-id="section-10">2017</h2>
+</div>
+<div id="section-10" class="section level2">
+<h2>2018</h2>
 <ul>
-<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2017). Preemption in singular causation judgments: A computational model. In G. Gunzelmann, A. Howes, T. Tenbrink, &amp; E. Davelaar (Eds.), <em>Proceedings of the 39th Annual Conference of the Cognitive Science Society</em> (pp.&nbsp;1126-1131). Austin, TX: Cognitive Science Society. (<strong>Computational Modeling: Higher Level Cognition Award of the Cognitive Science Society</strong>). <span title="award"><img src="images/home/Lit_award_icon.png" class="img-fluid"></span> <span title="publication"><a href="publications/Stephan-Waldmann-2017-_Preemption in singular causation judgments-A computational model.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span></p></li>
-<li><p><strong>Stephan, S.</strong>, Willemsen, P. &amp; Gerstenberg, T. (2017). Marbles in inaction: Counterfactual simulation and causation by omission. In G. Gunzelmann, A. Howes, T. Tenbrink, &amp; E. Davelaar (Eds.), <em>Proceedings of the 39th Annual Conference of the Cognitive Science Society</em> (pp.&nbsp;1132-1137). Austin, TX: Cognitive Science Society. <span title="publication"><a href="publications/Stephan-Willemsen-Gerstenberg-2017-_omissions.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, Mayrhofer, R., &amp; Waldmann, M.
+R. (2018). Assessing singular causation: The role of causal latencies.
+In T.T. Rogers, M. Rau, X. Zhu, &amp; C. W. Kalish (Eds.),
+<em>Proceedings of the 40th Annual Conference of the Cognitive Science
+Society</em> (pp. 1080 - 1085). Austin, TX: Cognitive Science Society.
+<span title="publication"><a
+href="publications/Stephan-Mayrhofer-Waldmann-2018-_SingularCausationLatency.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2018).
+Preemption in singular causation judgments: A computational model.
+<em>Topics in Cognitive Science</em>, 10, 242–257. <span
+title="publication"><a
+href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/tops.12309"><img src="images/home/Lit_pdf_icon.png"></a></span></p></li>
 </ul>
-</section>
-<section id="section-11" class="level2">
-<h2 data-anchor-id="section-11">2016</h2>
+</div>
+<div id="section-11" class="section level2">
+<h2>2017</h2>
 <ul>
-<li><p>Nagel, J., &amp; <strong>Stephan, S.</strong> (2016). Explanations in causal chains: Selecting distal causes requires exportable mechanisms. In A. Papafragou, D. Grodner, D. Mirman, &amp; J.C. Trueswell (Eds.), <em>Proceedings of the 38th Annual Conference of the Cognitive Science Society</em> (pp.&nbsp;806-811). Austin, TX: Cognitive Science Society. <span title="publication"><a href="publications/Nagel-Stephan-2016-_Explanations in causal chains_selecting distal causes.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="poster"><a href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/2016_Poster_CogSci_Stephan.pdf"><img src="images/home/Lit_poster_icon.png"></a></span></p></li>
-<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2016). Answering causal queries about singular cases. In A. Papafragou, D. Grodner, D. Mirman, &amp; J.C. Trueswell (Eds.), <em>Proceedings of the 38th Annual Conference of the Cognitive Science Society</em> (pp.&nbsp;2795-2801). Austin, TX: Cognitive Science Society. <span title="publication"><a href="publications/Stephan-Waldmann-2016_Answering causal queries about singular cases.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2017).
+Preemption in singular causation judgments: A computational model. In G.
+Gunzelmann, A. Howes, T. Tenbrink, &amp; E. Davelaar (Eds.),
+<em>Proceedings of the 39th Annual Conference of the Cognitive Science
+Society</em> (pp. 1126-1131). Austin, TX: Cognitive Science Society.
+(<strong>Computational Modeling: Higher Level Cognition Award of the
+Cognitive Science Society</strong>). <span title="award"><img
+src="images/home/Lit_award_icon.png" /></span> <span
+title="publication"><a
+href="publications/Stephan-Waldmann-2017-_Preemption%20in%20singular%20causation%20judgments-A%20computational%20model.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, Willemsen, P. &amp; Gerstenberg, T.
+(2017). Marbles in inaction: Counterfactual simulation and causation by
+omission. In G. Gunzelmann, A. Howes, T. Tenbrink, &amp; E. Davelaar
+(Eds.), <em>Proceedings of the 39th Annual Conference of the Cognitive
+Science Society</em> (pp. 1132-1137). Austin, TX: Cognitive Science
+Society. <span title="publication"><a
+href="publications/Stephan-Willemsen-Gerstenberg-2017-_omissions.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span></p></li>
 </ul>
-</section>
-<section id="section-12" class="level2">
-<h2 data-anchor-id="section-12">2015</h2>
+</div>
+<div id="section-12" class="section level2">
+<h2>2016</h2>
 <ul>
-<li>Nagel, J., &amp; <strong>Stephan, S.</strong>. (2015). Mediators or alternative explanations: Transitivity in human-mediated causal chains. In D. C. Noelle, R. Dale, A. S. Warlaumont, J. Yoshimi, T. Matlock, C. D. Jennings, &amp; P. P. Maglio (Eds.), <em>Proceedings of the 37th Annual Meeting of the Cognitive Science Society</em> (pp.&nbsp;1691-1696). Austin, TX: Cognitive Science Society. <span title="publication"><a href="publications/Nagel-Stephan-2015_mediators.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span> <span title="poster"><a href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/2015_Poster_CogSci_Stephan.pdf"><img src="images/home/Lit_poster_icon.png"></a></span></li>
+<li><p>Nagel, J., &amp; <strong>Stephan, S.</strong> (2016).
+Explanations in causal chains: Selecting distal causes requires
+exportable mechanisms. In A. Papafragou, D. Grodner, D. Mirman, &amp;
+J.C. Trueswell (Eds.), <em>Proceedings of the 38th Annual Conference of
+the Cognitive Science Society</em> (pp. 806-811). Austin, TX: Cognitive
+Science Society. <span title="publication"><a
+href="publications/Nagel-Stephan-2016-_Explanations%20in%20causal%20chains_selecting%20distal%20causes.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="poster"><a
+href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/2016_Poster_CogSci_Stephan.pdf"><img src="images/home/Lit_poster_icon.png"></a></span></p></li>
+<li><p><strong>Stephan, S.</strong>, &amp; Waldmann, M. R. (2016).
+Answering causal queries about singular cases. In A. Papafragou, D.
+Grodner, D. Mirman, &amp; J.C. Trueswell (Eds.), <em>Proceedings of the
+38th Annual Conference of the Cognitive Science Society</em>
+(pp. 2795-2801). Austin, TX: Cognitive Science Society. <span
+title="publication"><a
+href="publications/Stephan-Waldmann-2016_Answering%20causal%20queries%20about%20singular%20cases.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span></p></li>
 </ul>
-<p><a href="#top" onclick="scrollToTop();return false">Back to Top ↑</a></p>
+</div>
+<div id="section-13" class="section level2">
+<h2>2015</h2>
+<ul>
+<li>Nagel, J., &amp; <strong>Stephan, S.</strong>. (2015). Mediators or
+alternative explanations: Transitivity in human-mediated causal chains.
+In D. C. Noelle, R. Dale, A. S. Warlaumont, J. Yoshimi, T. Matlock, C.
+D. Jennings, &amp; P. P. Maglio (Eds.), <em>Proceedings of the 37th
+Annual Meeting of the Cognitive Science Society</em> (pp. 1691-1696).
+Austin, TX: Cognitive Science Society. <span title="publication"><a
+href="publications/Nagel-Stephan-2015_mediators.pdf"><img src="images/home/Lit_pdf_icon.png"></a></span>
+<span title="poster"><a
+href="https://www.psych.uni-goettingen.de/de/cognition/publikationen-dateien-stephan/2015_Poster_CogSci_Stephan.pdf"><img src="images/home/Lit_poster_icon.png"></a></span></li>
+</ul>
+<p><a href="#top" onclick="scrollToTop();return false">Back to Top
+↑</a></p>
+</div>
+</div>
+
+<p><font size="-1.5">Copyright &copy; 2020 Simon Stephan. All rights reserved.</font></p>
 
 
 
-</section>
-</section>
+</div>
 
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
   });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn) {
-    const config = {
-      allowHTML: true,
-      content: contentFn,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start'
-    };
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
-      });
-    }
-  }
 });
 </script>
-</div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">© Copyright 2023, Simon Stephan</div>   
-    <div class="nav-footer-center">
-      &nbsp;
-    </div>
-    <div class="nav-footer-right">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>
-  </div>
-</footer>
+
+<!-- code folding -->
 
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
-</body></html>
+</body>
+</html>
